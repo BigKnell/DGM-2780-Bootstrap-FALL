@@ -95,6 +95,10 @@ section .cards-box .card {
   margin: 15px 0px;
   max-height: 303px;
   overflow: hidden;
+  color: #000;
+}
+section .cards-box .card:hover {
+  color: #000;
 }
 section .cards-box .card .card-body {
   position: absolute;
@@ -117,6 +121,10 @@ section h1 a:hover {
 }
 section .card {
   margin: 15px 0px;
+  color: #000;
+}
+section .card:hover {
+  color: #000;
 }
 section .card .card-body {
   position: absolute;
@@ -140,6 +148,7 @@ section form {
   margin-bottom: 30px;
 }
 footer .bottom-nav {
+  padding-bottom: 30px;
   background-color: #000;
 }
 footer .bottom-nav p {
