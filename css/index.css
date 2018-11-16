@@ -50,6 +50,7 @@ header .top-nav .navbar-dark form input[type="search"] {
   border-radius: 0px;
   color: #fff;
   width: 100%;
+  margin-right: 0px !important;
 }
 header .top-nav .navbar-dark form button {
   position: absolute;
