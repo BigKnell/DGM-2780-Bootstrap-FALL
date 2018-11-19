@@ -1,51 +1,30 @@
-nav{
-  background-color: green;
+img{
+  width: 100%;
 }
 
+.fullWidth{
+  width: 100%;
+}
 
+.threeBoxes{
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
 
-.card {
-    width: 420px;
-    height: 500px;
-    transition: transform 1s;
-  
-    transform-style: preserve-3d;
-    cursor: pointer;
-    position: relative;
-    margin: 35px;
-  
-   
-  
-  
-  .card.is-flipped {
-    transform: rotateY(180deg);
+.squareLeft{
+ 
+  padding-top: 3%;
+  padding-bottom: 3%;
+  justify-content: center;
+  align-content: center; 
+
+}//squareLeft
+
+.squareRight{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: baseline;
+  img{
+    width: 50%;
   }
-  
-  .card__face {
-    position: absolute;
-    
-    backface-visibility: hidden;
-
-     }
-  
-  
-  
-  .card__face--back {
-    width: 340px;
-    height: 450px;
-    display: flex;
-    justify-content: space-evenly;
-    transform: rotateY(180deg);
-    flex-wrap: wrap;
-    align-content: space-around;
-  
-  }
-
-  p{
-    font-size: 2rem;
-    color: blue;
-    padding: 8px;
-    font-weight: bold;
-  
-  }
-}//card
+}

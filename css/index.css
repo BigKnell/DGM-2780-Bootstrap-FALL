@@ -1,34 +1,44 @@
-nav {
-  background-color: green;
+img {
+  width: 100%;
 }
-.card {
-  width: 420px;
-  height: 500px;
-  transition: transform 1s;
-  transform-style: preserve-3d;
-  cursor: pointer;
-  position: relative;
-  margin: 35px;
+.fullWidth {
+  width: 100%;
 }
-.card .card.is-flipped {
-  transform: rotateY(180deg);
+.threeBoxes {
+  padding-top: 3%;
+  padding-bottom: 3%;
 }
-.card .card__face {
-  position: absolute;
-  backface-visibility: hidden;
+.squareLeft {
+  padding-top: 3%;
+  padding-bottom: 3%;
+  justify-content: center;
+  align-content: center;
 }
-.card .card__face--back {
-  width: 340px;
-  height: 450px;
+.squareRight {
   display: flex;
-  justify-content: space-evenly;
-  transform: rotateY(180deg);
   flex-wrap: wrap;
-  align-content: space-around;
+  align-content: baseline;
 }
-.card p {
-  font-size: 2rem;
-  color: blue;
-  padding: 8px;
-  font-weight: bold;
+.squareRight img {
+  width: 50%;
+}
+.navigation {
+  background-color: #2b2d2f;
+}
+.navigation nav a {
+  text-decoration: none;
+  font-size: 1rem;
+  color: white;
+}
+footer {
+  background-color: #2b2d2f;
+}
+footer p {
+  color: white;
+  font-size: 1rem;
+  padding: 2%;
+  text-align: center;
+}
+container-fluid {
+  background-color: #2b2d2f;
 }

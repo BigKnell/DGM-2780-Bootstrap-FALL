@@ -8,25 +8,28 @@
 	<link href="css/index.css" type="text/css" rel="stylesheet">
 </head>
 <body>
-	<nav class="leftNav">
-		<a href="">Boutiques</a>
-		<a href="">Gift Cards</a>
-		<a href="">Rewards</a>
-		<a href="">Specials</a>
-	</nav>
-	<nav class="rightNav">
-		<a href="">Search</a>
-		<a href="">Sign In / Register</a>
-		<a href="">Cart</a>
-	</nav>
-	<nav class="mainNav">
-		<a href="">Packages</a>
+	<div class="container-fluid navigation">
+	
+	<nav>
+		<div class="row">		
+		<div class="col-1">"<a href="">Boutiques</a></div>
+		<div class="col-1"></div><a href="">Gift Cards</a></div>
+		<div class="col-1"></div><a href="">Rewards</a></div>
+		<div class="col-1"></div><a href="">Specials</a></div>
+		<div class="col-5">Pampered Serenity</div>
+		<div class="col-1"></div><a href="">Search</a></div>
+		<div class="col-1"></div><a href="">Sign In / Register</a></div>
+		<div class="col-1"></div><a href="">Cart</a></div>
+	</div><!--row-->
+
+	<a href="">Packages</a>
 		<a href="">Manicure / Pedicure</a>
 		<a href="">Skin Treatment</a>
 		<a href="">Massage</a>
 		<a href="">Body Wrap</a>
+		</ul>
 	</nav>
-<!-- Your code here! -->
+</div><!-- container-fluid -->
 	
 			<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
 					<ol class="carousel-indicators">
@@ -36,21 +39,21 @@
 					</ol>
 					<div class="carousel-inner">
 					  <div class="carousel-item active">
-						<img class="d-block w-100" src="images/poolNight1200.jpg" alt="pool">
+						<img class="d-block w-100" src="images/heroPoolNight.jpg" alt="pool">
 						<div class="carousel-caption d-none d-md-block">
 								<h5>Paria sunt igitur</h5>
 								<p>Conclusum est enim contra Cyrenaicos satis acute, nihil ad Epicurum.</p>
 							  </div>
 					  </div>
 					  <div class="carousel-item">
-						<img class="d-block w-100" src="images/massage1200.jpg" alt="massage">
+						<img class="d-block w-100" src="images/heroMassage.jpg" alt="massage">
 						<div class="carousel-caption d-none d-md-block">
 								<h5>Paria sunt igitur</h5>
 								<p>Conclusum est enim contra Cyrenaicos satis acute, nihil ad Epicurum.</p>
 							  </div>
 					  </div>
 					  <div class="carousel-item">
-						<img class="d-block w-100" src="images/mani1200.jpg" alt="manicure">
+						<img class="d-block w-100" src="images/heroMani.jpg" alt="manicure">
 						<div class="carousel-caption d-none d-md-block">
 								<h5>Paria sunt igitur</h5>
 								<p>Conclusum est enim contra Cyrenaicos satis acute, nihil ad Epicurum.</p>
@@ -69,100 +72,156 @@
 	
 	<!--three boxes-->			  
 	<div class="container threeBoxes">
-		<img class="three" src="images/candles576.jpg" alt="candles">
-		<img class="three" src="images/cream576.jpg" alt="face cream">
-		<img class="three" src="images/tools576.jpg" alt="tools">
+	<div class="row">
+		<div class="col-4">
+			<img class="three" src="images/candles.jpg" alt="candles">
+		</div>
+		<div class="col-4">
+			<img class="three" src="images/cream.jpg" alt="face cream">
+		</div>
+		<div class="col-4">
+				<img class="three" src="images/tools.jpg" alt="tools">
+		</div>
+		
+	</div><!--row-->
+	</div>
 
-	</div>
 	<div class="container squareLeft">
-		<img class="square" src="images/sign576.jpg" alt="sign">
-	</div>
-	<div class="container fourBoxes">
-		<img class="four" src="images/oil576.jpg" alt="oils">
-		<img class="four" src="images/face576.jpg" alt="face">
-		<img class="four" src="images/wax576.jpg" alt="wax">
-		<img class="four" src="images/beardl576.jpg" alt="hair care">
-	</div>
-	<div class="container fullWidth">
-		<img class="full" src="images/pool1200.jpg" alt="pool">
+		<div class="row">
+			<div class="col-6">
+				<img class="square" src="images/sign.jpg" alt="sign">
+			</div>
+			<div class="col-6">
+				<div class="container squareRight">
+				
+					
+								<img class="four" src="images/oils.jpg" alt="oils">
+						
+								<img class="four" src="images/face.jpg" alt="face">
+							
+				
+								<img class="four" src="images/wax.jpg" alt="wax">
+						
+								<img class="four" src="images/beard.jpg" alt="hair care">
+						
+		
+		</div><!--container-->
+		</div><!--col-6-->
+	</div><!--row-->
+</div><!--container-->
+
+	<div class="container-fluid fullWidth">
+		<img class="full" src="images/heroPool.jpg" alt="pool">
 		<div class="caption" >
 				<h5>Paria sunt igitur</h5>
 				<p>Conclusum est enim contra Cyrenaicos satis acute, nihil ad Epicurum.</p>
 			  </div>
 	</div>
 
+	<!--three boxes-->			  
 	<div class="container threeBoxes">
-			<img class="three" src="images/candles576.jpg" alt="candles">
-			<img class="three" src="images/cream576.jpg" alt="face cream">
-			<img class="three" src="images/tools576.jpg" alt="tools">
-	
-		</div>
-	<div id="cards">
-		<div class="card__face card__face--front">
-			<img src="images/room576.jpg" src="room">
-		</div>
-		<div class="card__face card__face--back">
+			<div class="row">
+				<div class="col-4">
+					<img class="three" src="images/candles.jpg" alt="candles">
+				</div>
+				<div class="col-4">
+					<img class="three" src="images/cream.jpg" alt="face cream">
+				</div>
+				<div class="col-4">
+						<img class="three" src="images/tools.jpg" alt="tools">
+				</div>
+				
+			</div><!--row-->
+			</div>
+
+	<!--four boxes animation-->
+	<div class="container fourBoxesAnimation">
+		<div class="row">
+			<div class="col-3">
+				<img src="images/room.jpg" src="room">
+			</div>
 		<h5>$100</h5>
 				<p>Conclusum est enim contra Cyrenaicos satis acute</p>
 
 			 <a href="">Shop</a>
-		</div>
+		
 
-		<div class="card__face card__face--front">
-				<img src="images/jar576.jpg" src="jars">
+			 <div class="col-3">
+				<img src="images/jars.jpg" src="jars">
 			</div>
-			<div class="card__face card__face--back">
+	
 			<h5>$100</h5>
 					<p>Conclusum est enim contra Cyrenaicos satis acute</p>
 	
 				 <a href="">Shop</a>
-			</div>
+		
 
-			<div class="card__face card__face--front">
-					<img src="images/light576.jpg" src="lights">
-				</div>
-				<div class="card__face card__face--back">
+			 <div class="col-3">
+					<img src="images/lights.jpg" src="lights">
+			</div>
 				<h5>$100</h5>
 						<p>Conclusum est enim contra Cyrenaicos satis acute</p>
 		
 					 <a href="">Shop</a>
-				</div>
-
-				<div class="card__face card__face--front">
-						<img src="images/towel576.jpg" src="towels">
-					</div>
-					<div class="card__face card__face--back">
+			
+			<div class="col-3">
+						<img src="images/towels.jpg" src="towels">
+			</div>	
+			
 					<h5>$100</h5>
 							<p>Conclusum est enim contra Cyrenaicos satis acute</p>
 			
 						 <a href="">Shop</a>
-					</div>		
-	</div><!--cards-->
+		</div><!--row-->
+	</div><!--fourBoxesAnimation-->
 
-	<div class="container fourBoxes">
-			<img class="four" src="images/oil576.jpg" alt="oils">
-			<img class="four" src="images/face576.jpg" alt="face">
-			<img class="four" src="images/wax576.jpg" alt="wax">
-			<img class="four" src="images/beardl576.jpg" alt="hair care">
-		</div>
-
+	<div class="container squareLeft">
+			<div class="row">
+				<div class="col-6">
+					<img class="square" src="images/sign.jpg" alt="sign">
+				</div>
+				<div class="col-6">
+					<div class="container squareRight">
+					
+						
+									<img class="four" src="images/oils.jpg" alt="oils">
+							
+									<img class="four" src="images/face.jpg" alt="face">
+					
+									<img class="four" src="images/wax.jpg" alt="wax">
+							
+									<img class="four" src="images/beard.jpg" alt="hair care">
+									
+			
+			</div><!--container-->
+			</div><!--col-6-->
+		</div><!--row-->
+	</div><!--container-->
+	
 	<div class="container text">
-		<div class="textBox">
-		<h3>Age sane, inquam</h3>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quod totum contra est. Hic nihil fuit, quod quaereremus. Respondent extrema primis, media utrisque, omnia omnibus. Duo enim genera quae erant, fecit tria. At coluit ipse amicitias. Addidisti ad extremum etiam indoctum fuisse</p>
-	</div>
-	<div class="textBox">
-			<h3>Paria sunt igitur</h3>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quod totum contra est. Hic nihil fuit, quod quaereremus. Respondent extrema primis, media utrisque, omnia omnibus. Duo enim genera quae erant, fecit tria. At coluit ipse amicitias. Addidisti ad extremum etiam indoctum fuisse</p>
-		</div>
-		<div class="textBox">
-				<h3>Numquam facies</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quod totum contra est. Hic nihil fuit, quod quaereremus. Respondent extrema primis, media utrisque, omnia omnibus. Duo enim genera quae erant, fecit tria. At coluit ipse amicitias. Addidisti ad extremum etiam indoctum fuisse</p>
+		<div class="row">
+			<div class="col-4">
+				<div class="textBox">
+					<h3>Age sane, inquam</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quod totum contra est. Hic nihil fuit, quod quaereremus. Respondent extrema primis, media utrisque, omnia omnibus. Duo enim genera quae erant, fecit tria. At coluit ipse amicitias. Addidisti ad extremum etiam indoctum fuisse</p>
+				</div>
 			</div>
-	</div>
-
+			<div class="col-4">
+				<div class="textBox">
+					<h3>Paria sunt igitur</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quod totum contra est. Hic nihil fuit, quod quaereremus. Respondent extrema primis, media utrisque, omnia omnibus. Duo enim genera quae erant, fecit tria. At coluit ipse amicitias. Addidisti ad extremum etiam indoctum fuisse</p>
+				</div>
+			</div>
+			<div class="col-4">
+				<div class="textBox">
+					<h3>Numquam facies</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quod totum contra est. Hic nihil fuit, quod quaereremus. Respondent extrema primis, media utrisque, omnia omnibus. Duo enim genera quae erant, fecit tria. At coluit ipse amicitias. Addidisti ad extremum etiam indoctum fuisse</p>
+				</div>
+			</div>
+	</div><!--row-->
+</div><!--container-->
 	<footer>
-			<p>&copy; 2018 &bull; Spa &bull;</p>
+			<p>&copy; 2018 &bull; Pampered Serenity Spa &bull;</p>
 
 	</footer>
 <script type="text/javascript" src="js/jquery.js"></script>

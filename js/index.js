@@ -1,8 +1,7 @@
 // Custom JS here
-const cardCreator = (spa) =>{
- let card = document.querySelector('#cards')
- card.className = "card"
- card.addEventListener( 'hover', function() {
-     card.classList.toggle('is-flipped');
- })
+function toggleMenu() {
+    document.getElementById('hamburgerBtn').classList.toggle('open');
+    document.getElementById('primaryNav').classList.toggle('open');
 }
+let x = document.getElementById('hamburgerBtn');
+x.onclick = toggleMenu
