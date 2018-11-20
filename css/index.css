@@ -18,6 +18,10 @@ img {
   padding-top: 3%;
   padding-bottom: 3%;
 }
+.threeBoxes img {
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
 .squareLeft {
   padding-top: 3%;
   padding-bottom: 3%;
@@ -36,6 +40,14 @@ img {
   width: 50%;
   height: 100%;
 }
+.fourBoxesAnimation a {
+  text-decoration: none;
+  justify-self: center;
+  color: #000;
+}
+.fourBoxesAnimation a:hover {
+  color: #2b2d2f;
+}
 .logo {
   background-color: #2b2d2f;
 }
@@ -46,7 +58,7 @@ img {
 }
 .toggle-btn {
   position: fixed;
-  margin: 1rem;
+  margin: 1.5rem;
   padding: 1.5rem;
   width: 40px;
   height: 12px;
@@ -90,13 +102,57 @@ span.two {
 }
 footer {
   background-color: #2b2d2f;
+  display: flex;
+  justify-content: center;
+}
+footer a {
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+  text-align: center;
+  padding: 4%;
+}
+footer a:hover {
+  color: #eee;
 }
 footer p {
   color: white;
   font-size: 1rem;
   padding: 4%;
-  text-align: center;
+  justify-self: center;
 }
-container-fluid {
+.form {
+  border-top: 0.5px solid #999;
+  border-right: 0.5px solid #999;
+}
+@media mobile {
+  .form {
+    border-right: 0 dashed #fff;
+  }
+}
+.form h1 {
+  color: #2b2d2f;
+  font-size: 3rem;
+}
+.form form {
+  padding-bottom: 8%;
+}
+button {
   background-color: #2b2d2f;
+  width: 50%;
+}
+.register {
+  border-top: 0.5px solid #999;
+}
+.register h2 {
+  padding-top: 4%;
+  color: #2b2d2f;
+  font-size: 2rem;
+  padding-bottom: 4%;
+}
+.register ul {
+  padding-bottom: 2%;
+}
+.register li {
+  padding: 2%;
 }

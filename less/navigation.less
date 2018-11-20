@@ -8,7 +8,7 @@
 }
 .toggle-btn{
   position: fixed;
-    margin: 1rem;
+    margin: 1.5rem;
     padding: 1.5rem;
     width: 40px;
     height: 12px;
@@ -61,11 +61,22 @@ span.two{
 
 footer{
     background-color: @DkColor;
-
+    display: flex;
+    justify-content: center;
+    a{
+        text-decoration: none;
+        color: white;
+        font-size: 1rem;
+        text-align: center;
+        padding: 4%;
+    }
+    a:hover{
+        color: @LtColor;
+    }
     p{
         color: white;
         font-size: 1rem;
         padding: 4%;
-        text-align: center;
+       justify-self: center;
     }
 }
