@@ -1,9 +1,24 @@
 .form{
     border-top: .5px solid #999;
     border-right: .5px solid #999;
-    @media mobile{
-        border-right: 0 dashed #fff;
+    @media @tablet{
+        border-top: .5px solid #fff;
+    border-right: .5px solid #fff;
+    
+    button{
+        background-color:@DkColor;
+        width: 50%;
     }
+    button:hover{
+        background-color: @LtAccent;
+        color: @DkColor;
+    }
+
+}
+
+
+
+
 h1{
     color: @DkColor;
     font-size: 3rem;
@@ -13,13 +28,19 @@ form{
 
 }
 }//.form
-button{
-    background-color:@DkColor;
-    width: 50%;
-}
-.register{
 
+.register{
+    padding-bottom: 4%;
     border-top: .5px solid #999;
+
+    button{
+        background-color:@DkColor;
+        width: 50%;
+    }
+    button:hover{
+        background-color: @LtAccent;
+        color: @DkColor;
+    }
 h2{
     padding-top: 4%;
     color: @DkColor;
