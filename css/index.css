@@ -48,32 +48,52 @@ img {
 .fourBoxesAnimation a:hover {
   color: #2b2d2f;
 }
+footer {
+  margin-top: 6%;
+}
 .navbar button {
   width: 60px;
 }
-.navbar ul {
-  display: flex;
-  justify-content: space-evenly;
-}
-.navbar ul li {
-  margin-right: 10%;
+.navbar li {
+  padding-left: 16%;
   list-style-type: none;
 }
-.navbar ul li a {
+.navbar li a {
   color: #fff;
   text-decoration: none;
   font-size: 1rem;
 }
 .navbar .btn-outline-success {
-  background-color: #2b2d2f;
-  color: white;
-  border: solid 1px #2b2d2f;
+  border: solid 1px #DBA72E;
+  background-color: #DBA72E;
+  color: #2b2d2f;
   width: 80px;
 }
 .navbar .btn-outline-success:hover {
-  background-color: #fff;
+  background-color: #2b2d2f;
+  color: #DBA72E;
+  border: solid 1px #DBA72E;
+}
+@media (max-width: 768px) {
+  .secondNav {
+    display: none;
+  }
+}
+.secondNav {
+  background-color: #DBA72E;
+}
+.secondNav ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+.secondNav ul li {
+  padding: 1%;
+  list-style-type: none;
+}
+.secondNav ul li a {
   color: #2b2d2f;
-  border: solid 1px #2b2d2f;
+  text-decoration: none;
+  font-size: 0.8rem;
 }
 footer {
   background-color: #2b2d2f;
@@ -168,12 +188,13 @@ form {
 .left .colorBox {
   width: 30px;
   height: 30px;
-  margin: 14%;
+  margin: 6px;
 }
 .left a {
   text-decoration: none;
-  color: #2b2d2f;
+  color: white;
   font-size: 1rem;
+  padding-left: 20px;
 }
 .left a:hover {
   color: #DBA72E;
