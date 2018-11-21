@@ -52,10 +52,11 @@ img {
   width: 60px;
 }
 .navbar ul {
-  padding-top: 4%;
+  display: flex;
+  justify-content: space-evenly;
 }
 .navbar ul li {
-  padding: 2%;
+  margin-right: 10%;
   list-style-type: none;
 }
 .navbar ul li a {
@@ -96,10 +97,22 @@ footer p {
   padding: 4%;
 }
 footer .social img {
-  padding-top: 4%;
-  padding-left: 2%;
-  width: 4rem;
-  height: 4rem;
+  padding-top: 10%;
+  padding-left: 14%;
+  width: 2.5rem;
+  height: 2.5rem;
+}
+footer .form-row {
+  align-content: center;
+}
+footer .form-row button {
+  border: solid 1px #DBA72E;
+  background-color: #DBA72E;
+}
+footer .form-row button:hover {
+  background-color: #2b2d2f;
+  color: #DBA72E;
+  border: solid 1px #DBA72E;
 }
 .form {
   border-top: 0.5px solid #999;
@@ -110,33 +123,27 @@ footer .social img {
     border-top: 0.5px solid #fff;
     border-right: 0.5px solid #fff;
   }
-  .form button {
-    background-color: #2b2d2f;
-    width: 50%;
-  }
-  .form button:hover {
-    background-color: #DBA72E;
-    color: #2b2d2f;
-  }
 }
-.form h1 {
+.signIn button {
+  width: 50%;
+  border: solid 1px #DBA72E;
+  background-color: #DBA72E;
+}
+.signIn button:hover {
+  background-color: #2b2d2f;
+  color: #DBA72E;
+  border: solid 1px #DBA72E;
+}
+h1 {
   color: #2b2d2f;
   font-size: 3rem;
 }
-.form form {
+form {
   padding-bottom: 8%;
 }
 .register {
   padding-bottom: 4%;
   border-top: 0.5px solid #999;
-}
-.register button {
-  background-color: #2b2d2f;
-  width: 50%;
-}
-.register button:hover {
-  background-color: #DBA72E;
-  color: #2b2d2f;
 }
 .register h2 {
   padding-top: 4%;
@@ -161,7 +168,15 @@ footer .social img {
 .left .colorBox {
   width: 30px;
   height: 30px;
-  background-color: #DBA72E;
+  margin: 14%;
+}
+.left a {
+  text-decoration: none;
+  color: #2b2d2f;
+  font-size: 1rem;
+}
+.left a:hover {
+  color: #DBA72E;
 }
 .left .accordion {
   padding-top: 10%;
@@ -184,6 +199,15 @@ h1 {
   margin-top: 4%;
   margin-bottom: 4%;
   background-color: #2b2d2f;
+}
+.btn-secondary {
+  border: solid 1px #DBA72E;
+  background-color: #DBA72E;
+}
+.btn-secondary:hover {
+  background-color: #2b2d2f;
+  color: #DBA72E;
+  border: solid 1px #DBA72E;
 }
 @media (max-width: 768px) {
   .left {
