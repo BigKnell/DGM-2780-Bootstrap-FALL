@@ -16,6 +16,7 @@ img{
 
 .fullWidth{
   width: 100%;
+
 }
 
 .threeBoxes{
@@ -57,14 +58,54 @@ height: 100%;
 .fourBoxesAnimation{
 a{
   text-decoration: none;
-  justify-self: center;
+  color: @DkColor;
+}
+
+a:hover{
   color: @LtAccent;
 }
-a:hover{
-  color: @DkColor;
+
+
+
+  button{
+    border: solid 1px @LtAccent;
+    background-color: @LtAccent;
+    width: 100%;
+  
+}
+button:hover{
+    background-color: @DkColor;
+    color: @LtAccent;
+    border: solid 1px @LtAccent;
+
 }
 }
 
+
+.squareLeftSix{
+  padding-top: 3%;
+  padding-bottom: 3%;
+.bigSix{
+  @media @mobile{
+    margin-left:4%;
+  }
+
+
+  width: 312px;
+    height: 312px;
+ margin-left: 20%;
+  }
+
+.squareSix{
+
+  img{
+
+padding-top: 2%;
+    width: 156px;
+    height: 156px;
+  }
+}
+}
 footer{
   margin-top: 6%;
 }
