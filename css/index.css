@@ -1,3 +1,12 @@
+#ad {
+  background-color: #DBA72E;
+  width: 100%;
+  color: #2b2d2f;
+  font-size: 2rem;
+  text-align: center;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
 .sale {
   background-color: #2b2d2f;
 }
@@ -136,7 +145,7 @@ footer a {
   text-align: center;
 }
 footer a:hover {
-  color: #eee;
+  color: #DBA72E;
 }
 footer p {
   text-align: center;

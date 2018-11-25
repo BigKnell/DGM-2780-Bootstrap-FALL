@@ -1,34 +1,34 @@
-// Custom JS here
-let t1 = new TimelineMax({paused: true});
 
-t1.to(".one", 0.8, {
-    y: 6,
-    rotation:45,
-    ease: Expo.easeInOut
+const ad = document.querySelector('#ad');
+
+ad.addEventListener('mouseover', function(){
+
+    TweenMax.to('#move1', 2, {y:45});
+
+    TweenMax.to('#move2', 2, {y:-40});
 });
 
-t1.to(".two", 0.8, {
-    y: -6,
-    rotation: -45,
-    ease:Expo.easeInOut,
-    delay: -0.8
+TweenLite.to('#ad', 6, {
+    
+    backgroundColor:'#8b0000',
+    color:'#228b22',
+    ease: Power4.easeIn
 });
 
-t1.to(".menu", 1,{
-    top: "0%",
-    ease: Expo.easeInOut,
-    delay: -1
+const reasons = document.querySelector('#reasons')
+
+reasons.addEventListener('mouseover', function(){
+
+    TweenMax.to('#item1', 1, {x:45});
+    TweenMax.to('#item2', 2, {x:45});
+    TweenMax.to('#item3', 3, {x:45});
+
+
+    
 });
 
+TweenLite.to('#reasons', 6, {
 
-t1.staggerFrom(".menu ul li", 2, {x: -200, opacity: 0, ease: Expo.easeOut}, 0.3);
-
-t1.reverse();
-$(document).on("click", ".toggle-btn", function(){
-    t1.reversed(!t1.reversed())
-});
-
-t1.reverse();
-$(document).on("click", "a", function(){
-    t1.reversed(!t1.reversed())
-});
+    color:'#228b22',
+    ease: Power4.easeIn
+})
