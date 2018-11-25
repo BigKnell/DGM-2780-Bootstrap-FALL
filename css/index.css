@@ -1,21 +1,142 @@
 .clear {
-  clear: both; }
-
+  clear: both;
+}
 nav {
   float: left;
   color: #FF0000;
-  font-family: Helvetica, sans-serif; }
-  nav ul li ul.sub-nav {
-    display: none; }
-
+  font-family: Helvetica, sans-serif;
+}
+ul li a {
+  color: #666666;
+}
+a:hover {
+  color: white;
+  background-color: #666666;
+}
+nav ul li ul.sub-nav {
+  display: none;
+}
 .box {
   width: 200px;
   height: 200px;
-  background: red; }
-
+  background: red;
+}
 .box2 {
   width: 200px;
   height: 200px;
-  background: gray; }
-
+  background: gray;
+}
 /*# sourceMappingURL=main.css.map */
+.container banner {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 800px;
+  background: black;
+  color: white;
+  font-weight: 400;
+}
+.container-fluid {
+  height: 40px;
+  background: black;
+  color: white;
+}
+figure.logo {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+.hero-custom {
+  height: 500px;
+  background-image: url(../../DGM-2780-Bootstrap-FALL/images/hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+.container-tall {
+  max-width: 800px;
+  margin: 0 auto;
+}
+.container-tall figure {
+  width: 100%;
+}
+.container-tall figure img {
+  width: 100%;
+  margin: 0.5rem;
+}
+div.container-fluid {
+  height: auto;
+  display: flex;
+}
+div.container-fluid .container {
+  max-width: 1200px;
+}
+div.container-fluid .container h1 {
+  color: white;
+  justify-content: center;
+  margin-top: 15px;
+}
+div.container-fluid .container p {
+  color: white;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+div.container-fluid .container button {
+  margin-bottom: 15px;
+  justify-content: center;
+}
+div.container-slider {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+div.container-slider img {
+  width: 100%;
+  padding: 0px;
+  margin: 20px;
+}
+/* CONTACT US PAGE */
+/*  ROAD BIKE PAGE */
+.container-banner {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+.container-banner img {
+  width: 100%;
+}
+div.container-dropdown {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1200px;
+}
+div.container-dropdown div.dropdown {
+  width: 100%;
+}
+div.container-dropdown div.dropdown button {
+  width: 100%;
+  margin: 5px;
+}
+div.container-thumbimg {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+div.container-thumbimg img {
+  width: 100%;
+  padding: 0px;
+  margin: 20px;
+}
+.container-fluid-footer {
+  background-color: #e6e6e6;
+  margin-top: 1.5rem;
+}
+.container-fluid-footer .container-footer {
+  width: 100%;
+  height: 80px;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+.container-fluid-footer .container-footer h4 {
+  color: black;
+  margin: 0 auto;
+  max-width: 800px;
+  margin-top: 1.5rem;
+  font-size: 1.2rem;
+}
