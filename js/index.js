@@ -1,7 +1,7 @@
 
 const ad = document.querySelector('#ad');
 
-ad.addEventListener('mouseover', function(){
+ad.addEventListener('click', function(){
 
     TweenMax.to('#move1', 2, {y:45});
 
@@ -19,9 +19,9 @@ const reasons = document.querySelector('#reasons')
 
 reasons.addEventListener('mouseover', function(){
 
-    TweenMax.to('#item1', 1, {x:45});
-    TweenMax.to('#item2', 2, {x:45});
-    TweenMax.to('#item3', 3, {x:45});
+    TweenMax.from('#item1', 2, {y:65});
+    TweenMax.to('#item2', 2, {y:-45});
+    TweenMax.to('#item3', 2, {y:-55});
 
 
     
@@ -29,6 +29,6 @@ reasons.addEventListener('mouseover', function(){
 
 TweenLite.to('#reasons', 6, {
 
-    color:'#228b22',
+    color: '#8b0000',
     ease: Power4.easeIn
 })
