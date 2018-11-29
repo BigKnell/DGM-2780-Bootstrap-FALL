@@ -1,21 +1,274 @@
-.clear {
-  clear: both; }
-
-nav {
-  float: left;
-  color: #FF0000;
-  font-family: Helvetica, sans-serif; }
-  nav ul li ul.sub-nav {
-    display: none; }
-
-.box {
-  width: 200px;
-  height: 200px;
-  background: red; }
-
-.box2 {
-  width: 200px;
-  height: 200px;
-  background: gray; }
-
-/*# sourceMappingURL=main.css.map */
+#ad {
+  background-color: #DBA72E;
+  width: 100%;
+  color: #2b2d2f;
+  font-size: 2rem;
+  text-align: center;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+.sale {
+  background-color: #2b2d2f;
+}
+.sale h2 {
+  color: #fff;
+  font-size: 3rem;
+  text-align: center;
+  padding: 4%;
+  width: 100%;
+}
+img {
+  width: 100%;
+}
+.fullWidth {
+  width: 100%;
+}
+.threeBoxes {
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+.threeBoxes img {
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+.squareLeft {
+  padding-top: 3%;
+  padding-bottom: 3%;
+  justify-content: center;
+  align-content: center;
+}
+.squareLeft img {
+  height: 94%;
+}
+.squareRight {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: baseline;
+}
+.squareRight img {
+  width: 50%;
+  height: 100%;
+}
+.fourBoxesAnimation a {
+  text-decoration: none;
+  color: #2b2d2f;
+}
+.fourBoxesAnimation a:hover {
+  color: #DBA72E;
+}
+.fourBoxesAnimation button {
+  border: solid 1px #DBA72E;
+  background-color: #DBA72E;
+  width: 100%;
+}
+.fourBoxesAnimation button:hover {
+  background-color: #2b2d2f;
+  color: #DBA72E;
+  border: solid 1px #DBA72E;
+}
+.squareLeftSix {
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+.squareLeftSix .bigSix {
+  width: 312px;
+  height: 312px;
+  margin-left: 20%;
+}
+@media (max-width: 500px) {
+  .squareLeftSix .bigSix {
+    margin-left: 4%;
+  }
+}
+.squareLeftSix .squareSix img {
+  padding-top: 2%;
+  width: 156px;
+  height: 156px;
+}
+footer {
+  margin-top: 6%;
+}
+.navbar button {
+  width: 60px;
+}
+.navbar li {
+  margin-right: 15px;
+  list-style-type: none;
+}
+.navbar li a {
+  color: #DBA72E;
+  text-decoration: none;
+  font-size: 1rem;
+}
+.navbar .btn-outline-success {
+  border: solid 1px #DBA72E;
+  background-color: #DBA72E;
+  color: #2b2d2f;
+  width: 80px;
+}
+.navbar .btn-outline-success:hover {
+  background-color: #2b2d2f;
+  color: #DBA72E;
+  border: solid 1px #DBA72E;
+}
+@media (max-width: 768px) {
+  .secondNav {
+    display: none;
+  }
+}
+.secondNav {
+  background-color: #DBA72E;
+}
+.secondNav ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+.secondNav ul li {
+  padding: 1%;
+  list-style-type: none;
+}
+.secondNav ul li a {
+  color: #2b2d2f;
+  text-decoration: none;
+  font-size: 0.8rem;
+}
+footer {
+  background-color: #2b2d2f;
+  display: flex;
+  justify-content: center;
+  padding: 4% 4% 0 4%;
+}
+footer a {
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+  text-align: center;
+}
+footer a:hover {
+  color: #DBA72E;
+}
+footer p {
+  text-align: center;
+  color: white;
+  font-size: 1rem;
+  padding: 4%;
+}
+footer .social img {
+  padding-top: 10%;
+  padding-left: 14%;
+  width: 2.5rem;
+  height: 2.5rem;
+}
+footer .form-row {
+  align-content: center;
+}
+footer .form-row button {
+  border: solid 1px #DBA72E;
+  background-color: #DBA72E;
+}
+footer .form-row button:hover {
+  background-color: #2b2d2f;
+  color: #DBA72E;
+  border: solid 1px #DBA72E;
+}
+.form {
+  border-top: 0.5px solid #999;
+  border-right: 0.5px solid #999;
+}
+@media (max-width: 768px) {
+  .form {
+    border-top: 0.5px solid #fff;
+    border-right: 0.5px solid #fff;
+  }
+}
+.signIn button {
+  width: 50%;
+  border: solid 1px #DBA72E;
+  background-color: #DBA72E;
+}
+.signIn button:hover {
+  background-color: #2b2d2f;
+  color: #DBA72E;
+  border: solid 1px #DBA72E;
+}
+h1 {
+  color: #2b2d2f;
+  font-size: 3rem;
+}
+form {
+  padding-bottom: 8%;
+}
+.register {
+  padding-bottom: 4%;
+  border-top: 0.5px solid #999;
+}
+.register h2 {
+  padding-top: 4%;
+  color: #2b2d2f;
+  font-size: 2rem;
+  padding-bottom: 4%;
+}
+.register ul {
+  padding-bottom: 2%;
+}
+.register li {
+  padding: 2%;
+}
+.mainBox {
+  margin-top: 40px;
+}
+.left h5 {
+  font-size: 1rem;
+  color: #2b2d2f;
+  padding-bottom: 4%;
+}
+.left .colorBox {
+  width: 30px;
+  height: 30px;
+  margin: 6px;
+}
+.left a {
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+  padding-left: 20px;
+}
+.left a:hover {
+  color: #DBA72E;
+}
+.left .accordion {
+  padding-top: 10%;
+}
+.left .accordion .card {
+  background-color: #2b2d2f;
+  color: white;
+}
+.left .accordion button {
+  width: 100%;
+  color: white;
+}
+h1 {
+  width: 100%;
+  padding: 4%;
+  font-size: 3rem;
+  color: #2b2d2f;
+}
+.btn {
+  margin-top: 4%;
+  margin-bottom: 4%;
+  background-color: #2b2d2f;
+}
+.btn-secondary {
+  border: solid 1px #DBA72E;
+  background-color: #DBA72E;
+}
+.btn-secondary:hover {
+  background-color: #2b2d2f;
+  color: #DBA72E;
+  border: solid 1px #DBA72E;
+}
+@media (max-width: 768px) {
+  .left {
+    display: none;
+  }
+}
