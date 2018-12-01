@@ -1,21 +1,19 @@
-.clear {
-  clear: both; }
+@import "variables";
+//Global styles
+a {
+  color: @main-link-color;
+  &:hover {
+    color: #00709d;
+  }
+}
 
-nav {
-  float: left;
-  color: #FF0000;
-  font-family: Helvetica, sans-serif; }
-  nav ul li ul.sub-nav {
-    display: none; }
-
-.box {
-  width: 200px;
-  height: 200px;
-  background: red; }
-
-.box2 {
-  width: 200px;
-  height: 200px;
-  background: gray; }
-
-/*# sourceMappingURL=main.css.map */
+div.top-alert {
+  margin-bottom: 0px;
+  background-color: #f00;
+  color: #fff;
+}
+@import "header";
+@import "index_page";
+@import "secondary_page";
+@import "contact_page";
+@import "footer";

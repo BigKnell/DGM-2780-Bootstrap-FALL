@@ -1,21 +1,161 @@
-.clear {
-  clear: both; }
-
-nav {
-  float: left;
-  color: #FF0000;
-  font-family: Helvetica, sans-serif; }
-  nav ul li ul.sub-nav {
-    display: none; }
-
-.box {
-  width: 200px;
-  height: 200px;
-  background: red; }
-
-.box2 {
-  width: 200px;
-  height: 200px;
-  background: gray; }
-
-/*# sourceMappingURL=main.css.map */
+a {
+  color: #00a7e9;
+}
+a:hover {
+  color: #00709d;
+}
+div.top-alert {
+  margin-bottom: 0px;
+  background-color: #f00;
+  color: #fff;
+}
+header .top-nav {
+  background-color: #000;
+  color: #00a7e9;
+}
+header .top-nav .nav .highlight {
+  background-color: #00a7e9;
+}
+header .top-nav .nav .highlight a {
+  color: #fff;
+}
+header .top-nav .bg-dark {
+  background-color: #000000 !important;
+}
+header .top-nav .navbar-dark {
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 40px;
+}
+header .top-nav .navbar-dark .navbar-brand {
+  font-weight: bold;
+  font-size: 30px;
+}
+header .top-nav .navbar-dark .navbar-brand img {
+  width: 56px;
+  height: auto;
+}
+header .top-nav .navbar-dark .navbar-nav .nav-link {
+  color: #00a7e9;
+  text-transform: uppercase;
+  padding-right: 16px;
+  padding-left: 16px;
+}
+header .top-nav .navbar-dark .navbar-nav .nav-link:hover {
+  color: #00709d;
+}
+header .top-nav .navbar-dark form input[type="search"] {
+  background-color: #000;
+  border: 1px solid #369;
+  border-radius: 0px;
+  color: #fff;
+  width: 100%;
+  margin-right: 0px !important;
+}
+header .top-nav .navbar-dark form button {
+  position: absolute;
+  right: 0px;
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+}
+/*index page*/
+section .carousel {
+  margin-top: 30px;
+}
+section .cards-box {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+section .cards-box .top-cards a:first-of-type .card {
+  margin-right: 0px;
+}
+@media (min-width: 576px) {
+  section .cards-box .top-cards a:first-of-type .card {
+    margin-right: 15px;
+  }
+}
+@media (min-width: 1200px) {
+  section .cards-box .top-cards a:first-of-type .card {
+    margin-right: 0px;
+  }
+}
+section .cards-box .top-cards a:last-of-type .card {
+  margin-left: 0px;
+}
+@media (min-width: 576px) {
+  section .cards-box .top-cards a:last-of-type .card {
+    margin-left: 15px;
+  }
+}
+@media (min-width: 1200px) {
+  section .cards-box .top-cards a:last-of-type .card {
+    margin-left: 0px;
+  }
+}
+section .cards-box .card {
+  margin: 15px 0px;
+  max-height: 303px;
+  overflow: hidden;
+  color: #000;
+}
+section .cards-box .card:hover {
+  color: #000;
+}
+section .cards-box .card .card-body {
+  position: absolute;
+  bottom: 0px;
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 100%;
+}
+section .cards-box .card .badge {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+/*secondary page*/
+section h1 {
+  margin-top: 10px;
+  font-weight: 400;
+}
+section h1 a:hover {
+  text-decoration: none;
+}
+section .card {
+  margin: 15px 0px;
+  color: #000;
+}
+section .card:hover {
+  color: #000;
+}
+section .card .card-body {
+  position: absolute;
+  bottom: 0px;
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 100%;
+  padding: 4px;
+}
+section .hr-after button {
+  text-transform: uppercase;
+  background-color: #00a7e9;
+  border-radius: 0px;
+  margin-bottom: 20px;
+}
+section .hr-after hr {
+  margin: 0px;
+  border-top: 2px solid #ddd;
+}
+/*Contact Page*/
+section form {
+  margin-bottom: 30px;
+}
+footer .bottom-nav {
+  padding-bottom: 30px;
+  background-color: #000;
+}
+footer .bottom-nav p {
+  color: #fff;
+  font-size: 26px;
+}
+footer .bottom-nav .nav-link {
+  padding-left: 0px;
+}

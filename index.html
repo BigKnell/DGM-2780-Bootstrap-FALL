@@ -3,16 +3,233 @@
 <head>
 	<title>Bootstrap 4</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<!-- <link href="img/favicon.png" type="img/png" rel="icon"> -->
+	<link href="img/logo.png" type="img/png" rel="icon">
 	<link href="css/bootstrap.min.css" type="text/css" rel="stylesheet">
 	<link href="css/index.css" type="text/css" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 </head>
 <body>
-	
-<!-- Your code here! -->
-	
+
+<!--Holiday Alert-->
+<div class="alert alert-danger alert-dismissible fade show top-alert" role="alert">
+  <strong>Holiday Shipping Deadlines:</strong> Order before Dec 19th to get your order before Christmas!
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+
+<header>
+	<div class="container-fluid top-nav">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<ul class="nav justify-content-end">
+						<li class="nav-item">
+					    <a class="nav-link" href="#">Sign In</a>
+					  </li>
+						<li class="nav-item highlight">
+					    <a class="nav-link" href="#"><i class="fas fa-shopping-cart"></i> Cart - 0</a>
+					  </li>
+					</ul>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12">
+					<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+						<a class="navbar-brand" href="index.html">
+					    <img src="img/logo_white.png" width="30" height="30" class="d-inline-block align-top" alt="">
+					    WingWord
+					  </a>
+					  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					    <span class="navbar-toggler-icon"></span>
+					  </button>
+
+					  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+					    <ul class="navbar-nav mr-auto">
+					      <li class="nav-item">
+					        <a class="nav-link" href="secondary.html">Topics</a>
+					      </li>
+								<li class="nav-item">
+					        <a class="nav-link" href="#">eBooks</a>
+					      </li>
+								<li class="nav-item">
+					        <a class="nav-link" href="#">Teens</a>
+					      </li>
+								<li class="nav-item">
+					        <a class="nav-link" href="#">Kids</a>
+					      </li>
+					    </ul>
+					    <form class="form-inline my-2 my-lg-0">
+					      <input class="form-control mr-sm-2 search-box" type="search" placeholder="Search" aria-label="Search">
+					      <button class="btn btn-link my-2 my-sm-0" type="submit"><i class="fas fa-search search-icon"></i><span class="sr-only">Search</span></button>
+					    </form>
+					  </div>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
+
+<section class="main">
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+				<div id="carouselIndicators" class="carousel slide" data-ride="carousel">
+				  <ol class="carousel-indicators">
+				    <li data-target="#carouselIndicators" data-slide-to="0" class="active"></li>
+				    <li data-target="#carouselIndicators" data-slide-to="1"></li>
+						<li data-target="#carouselIndicators" data-slide-to="2"></li>
+						<li data-target="#carouselIndicators" data-slide-to="3"></li>
+				    <li data-target="#carouselIndicators" data-slide-to="4"></li>
+				  </ol>
+				  <div class="carousel-inner">
+				    <div class="carousel-item active">
+				      <a href="#"><img class="d-block w-100" src="img/book-bookcase-books-256421.jpg" alt="First slide"></a>
+				    </div>
+				    <div class="carousel-item">
+				      <a href="#"><img class="d-block w-100" src="img/bookcase-books-bookshelves-159711.jpg" alt="Second slide"></a>
+				    </div>
+						<div class="carousel-item">
+				      <a href="#"><img class="d-block w-100" src="img/assortment-book-book-bindings-1130980.jpg" alt="Third slide"></a>
+				    </div>
+						<div class="carousel-item">
+				      <a href="#"><img class="d-block w-100" src="img/book-girl-person-1071050.jpg" alt="Forth slide"></a>
+				    </div>
+						<div class="carousel-item">
+				      <a href="#"><img class="d-block w-100" src="img/book-depth-of-field-hands-115001.jpg" alt="Fifth slide"></a>
+				    </div>
+				  </div>
+				  <a class="carousel-control-prev" href="#carouselIndicators" role="button" data-slide="prev">
+				    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				    <span class="sr-only">Previous</span>
+				  </a>
+				  <a class="carousel-control-next" href="#carouselIndicators" role="button" data-slide="next">
+				    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+				    <span class="sr-only">Next</span>
+				  </a>
+				</div>
+			</div>
+		</div>
+		<div class="row cards-box">
+			<div class="col-12 col-xl-6 d-flex flex-column flex-sm-row flex-md-row flex-lg-row flex-xl-column top-cards">
+				<a href="#">
+					<div class="card">
+					  <img class="card-img-top" src="img/blur-blurred-book-46274.jpg" alt="Card image cap">
+					  <div class="card-body">
+					    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do labore et dolore magna aliqua.</p>
+					  </div>
+						<span class="badge badge-primary new-tag">New</span>
+					</div>
+				</a>
+				<a href="#">
+					<div class="card">
+					  <img class="card-img-top" src="img/background-image-blur-book-776646.jpg" alt="Card image cap">
+					  <div class="card-body">
+					    <p class="card-text">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+					  </div>
+					</div>
+				</a>
+			</div>
+			<div class="col-12 col-sm-6 col-xl-3 d-flex flex-column">
+				<a href="#">
+					<div class="card">
+					  <img class="card-img-top" src="img/antique-bible-blur-268424.jpg" alt="Card image cap">
+					  <div class="card-body">
+					    <p class="card-text">Labore et dolore magna aliqua.</p>
+					  </div>
+					</div>
+				</a>
+				<a href="#">
+					<div class="card">
+					  <img class="card-img-top" src="img/book-dark-enlightenment-1029141.jpg" alt="Card image cap">
+					  <div class="card-body">
+					    <p class="card-text">Exercitation ullamco laboris nisi ut aliquip.</p>
+					  </div>
+					</div>
+				</a>
+				<a href="#">
+					<div class="card">
+					  <img class="card-img-top" src="img/book-book-pages-chapter-5834.jpg" alt="Card image cap">
+					  <div class="card-body">
+					    <p class="card-text">Consectetur adipisicing elit, sed do eiusmod.</p>
+					  </div>
+					</div>
+				</a>
+			</div>
+			<div class="col-12 col-sm-6 col-xl-3 d-flex flex-column">
+				<a href="#">
+					<div class="card">
+					  <img class="card-img-top" src="img/blanket-bloom-blooming-545049.jpg" alt="Card image cap">
+					  <div class="card-body">
+					    <p class="card-text">Duis aute irure dolor in reprehenderit in voluptate.</p>
+					  </div>
+						<span class="badge badge-primary">Sale!</span>
+					</div>
+				</a>
+				<a href="#">
+					<div class="card">
+					  <img class="card-img-top" src="img/blur-book-girl-373465.jpg" alt="Card image cap">
+					  <div class="card-body">
+					    <p class="card-text">Laboris nisi ut aliquip ex ea commodo consequat.</p>
+					  </div>
+					</div>
+				</a>
+				<a href="#">
+					<div class="card">
+					  <img class="card-img-top" src="img/bible-blurred-background-book-954198.jpg" alt="Card image cap">
+					  <div class="card-body">
+					    <p class="card-text">Culpa qui officia deserunt mollit anim.</p>
+					  </div>
+					</div>
+				</a>
+			</div>
+
+		</div>
+	</div>
+</section>
+
+<footer>
+	<div class="container-fluid bottom-nav">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 col-sm-4 col-md-6">
+					<ul class="nav flex-column">
+					  <li class="nav-item">
+					    <a class="nav-link" href="contact.html">Contact</a>
+					  </li>
+					  <li class="nav-item">
+					    <a class="nav-link" href="#">Distributors</a>
+					  </li>
+					  <li class="nav-item">
+					    <a class="nav-link" href="#">Jobs</a>
+					  </li>
+						<li class="nav-item">
+					    <a class="nav-link" href="#">FAQ</a>
+					  </li>
+						<li class="nav-item">
+					    <a class="nav-link" href="#">Shipping</a>
+					  </li>
+						<li class="nav-item">
+					    <a class="nav-link" href="#">About Us</a>
+					  </li>
+
+					</ul>
+				</div>
+				<div class="col-12 col-sm-8 col-md-6">
+					<blockquote class="blockquote">
+					  <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Story posuere erat a ante.</p>
+					  <footer class="blockquote-footer">John Doe <cite title="Source Title">All Words Today</cite></footer>
+					</blockquote>
+				</div>
+
+			</div>
+		</div>
+	</div>
+</footer>
 
 <script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/TweenMax.min.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
 <script type="text/javascript" src="js/index.js"></script>
 
