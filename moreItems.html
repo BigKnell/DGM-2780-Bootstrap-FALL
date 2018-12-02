@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Home</title>
+	<title>More Items</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- <link href="img/favicon.png" type="img/png" rel="icon"> -->
 	<link href="css/bootstrap.min.css" type="text/css" rel="stylesheet">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-	<link href="css/index.css" type="text/css" rel="stylesheet">
+	<link href="css/moreItems.css" type="text/css" rel="stylesheet">
 </head>
 <header>
 	
@@ -58,7 +58,7 @@
 
 					<ul class="nav flex-column">
 						<li>
-						<a class="nav-link" href="moreItems.html">View All Items</a>
+						<a class="nav-link" href="#">View All Items</a>
 						</li>
 					</ul>
 
@@ -151,83 +151,117 @@
 <body>
 	
 <!-- Your code here! -->
-<div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
-		<ol class="carousel-indicators">
-				<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-				<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-				<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-			  </ol>
-		<div class="carousel-inner">
-		  <div class="carousel-item active">
-			<!-- <img class="d-block w-100" src="./images/slider1.jpg" srcset="./images/slider1.jpg 200h" alt="First slide"> -->
-				<picture>
-					<source class="d-block w-100" srcset="./images/slider1.jpg" media="(min-width: 800px)" />
-					<img class="d-block w-100" src="./images/slider1mobile.jpg" alt=""/>
-				  </picture>
-			<div class="carousel-caption d-md-block">
-					<h1>Our Winter Collection</h1>
-					<p>Check Out Our Winter Appearal</p>
-					<button class="carousel-button">Shop Now</button>
-				  </div>
-		</div>
-		  <div class="carousel-item">
-				<picture>
-						<source class="d-block w-100" srcset="./images/slider2.jpg" media="(min-width: 800px)" />
-						<img class="d-block w-100" src="./images/slider2mobile.jpg" alt=""/>
-					  </picture>
-			<div class="carousel-caption d-md-block">
-					<h1>We Have all the Brands</h1>
-					<p>Check Out Our Tee Shirts</p>
-					<button class="carousel-button">Shop Now</button>
-				  </div>
-		  </div>
-		  <div class="carousel-item">
-				<picture>
-						<source class="d-block w-100" srcset="./images/slider3.jpg" media="(min-width: 800px)" />
-						<img class="d-block w-100" src="./images/slider3mobile.jpg" alt=""/>
-					  </picture>
-			<div class="carousel-caption d-md-block">
-					<h1>Styles for Every Occasion</h1>
-					<p>See Our Other Items</p>
-					<button class="carousel-button">Shop Now</button>
-				  </div>
-		  </div>
-		</div>
-		<a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
-		  <span class="carousel-control-prev-icon bg-dark" aria-hidden="true"></span>
-		  <span class="sr-only">Previous</span>
-		</a>
-		<a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
-		  <span class="carousel-control-next-icon bg-dark" aria-hidden="true"></span>
-		  <span class="sr-only">Next</span>
-		</a>
-</div>
+<div class="container-fluid main-image text-center">
+        <div class="caption">
+        <h1>Hats and More!</h1>
+        <p>See our Entire Collection of Hats</p>
+        <button class="carousel-button">Shop Now</button>
+        </div>
+</div><!--End main image-->
 
-<div class="container-fluid main-sections">
-	<div class="row">
-		<div class="col-md-6 col-sm-12 section-box" id="section-1">
-						<h1>Styles</h1>
-						<p>See Our Other Items</p>
-						<button>Shop Now</button>
-		</div>
-		<div class="col-md-6 col-sm-12 section-box" id="section-2">
-				<h1>Styles</h1>
-						<p>See Our Other Items</p>
-						<button>Shop Now</button>
-		</div>
-		<div class="col-md-6 col-sm-12 section-box" id="section-3">
-				<h1>Styles</h1>
-						<p>See Our Other Items</p>
-						<button>Shop Now</button>
-		</div>
-		<div class="col-md-6 col-sm-12 section-box" id="section-4">
-				<h1>Styles</h1>
-						<p>See Our Other Items</p>
-						<button>Shop Now</button>
-		</div>
-	</div>
-
-</div>
+<!--Slider Cards-->
+<section class="container p-t-3">
+        <div class="row">
+            <div class="col-lg-12">
+                <h1>Bootstrap 4 Card Slider</h1>
+            </div>
+        </div>
+    </section>
+    <section class="carousel slide" data-ride="carousel" id="postsCarousel">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 text-md-right lead">
+                    <a class="btn btn-outline-secondary prev" href="" title="go back"><i class="fa fa-lg fa-chevron-left"></i></a>
+                    <a class="btn btn-outline-secondary next" href="" title="more"><i class="fa fa-lg fa-chevron-right"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="container p-t-0 m-t-2 carousel-inner">
+            <div class="row row-equal carousel-item active m-t-0">
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-img-top card-img-top-250">
+                            <img class="img-fluid" src="http://i.imgur.com/EW5FgJM.png" alt="Carousel 1">
+                        </div>
+                        <div class="card-block p-t-2">
+                            <h6 class="small text-wide p-b-2">Insight</h6>
+                            <h2>
+                                <a href>Why Stuff Happens Every Year.</a>
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-img-top card-img-top-250">
+                            <img class="img-fluid" src="http://i.imgur.com/Hw7sWGU.png" alt="Carousel 2">
+                        </div>
+                        <div class="card-block p-t-2">
+                            <h6 class="small text-wide p-b-2">Development</h6>
+                            <h2>
+                                <a href>How to Make Every Line Count.</a>
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-img-top card-img-top-250">
+                            <img class="img-fluid" src="http://i.imgur.com/g27lAMl.png" alt="Carousel 3">
+                        </div>
+                        <div class="card-block p-t-2">
+                            <h6 class="small text-wide p-b-2">Design</h6>
+                            <h2>
+                                <a href>Responsive is Essential.</a>
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row row-equal carousel-item m-t-0">
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-img-top card-img-top-250">
+                            <img class="img-fluid" src="//visualhunt.com/photos/l/1/office-student-work-study.jpg" alt="Carousel 4">
+                        </div>
+                        <div class="card-block p-t-2">
+                            <h6 class="small text-wide p-b-2">Another</h6>
+                            <h2>
+                                <a href>Tagline or Call-to-action.</a>
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-img-top card-img-top-250">
+                            <img class="img-fluid" src="//visualhunt.com/photos/l/1/working-woman-technology-computer.jpg" alt="Carousel 5">
+                        </div>
+                        <div class="card-block p-t-2">
+                            <h6 class="small text-wide p-b-2"><span class="pull-xs-right">12.04</span> Category 1</h6>
+                            <h2>
+                                <a href>This is a Blog Title.</a>
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 fadeIn wow">
+                    <div class="card">
+                        <div class="card-img-top card-img-top-250">
+                            <img class="img-fluid" src="//visualhunt.com/photos/l/1/people-office-team-collaboration.jpg" alt="Carousel 6">
+                        </div>
+                        <div class="card-block p-t-2">
+                            <h6 class="small text-wide p-b-2">Category 3</h6>
+                            <h2>
+                                <a href>Catchy Title of a Blog Post.</a>
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+      <!--End Slider Cards-->
 
 <!-- Footer -->
 <footer class="page-footer font-small">
@@ -412,7 +446,7 @@
 
 <script type="text/javascript" src="js/jquery.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
-<script type="text/javascript" src="js/index.js"></script>
+<script type="text/javascript" src="js/moreItems.js"></script>
 
 </body>
 </html>

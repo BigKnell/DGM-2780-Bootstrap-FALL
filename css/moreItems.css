@@ -56,13 +56,13 @@ body {
 .dropdown-menu {
   background: transparent;
 }
-.carousel .carousel-control-prev-icon,
-.carousel .carousel-control-next-icon {
-  border-radius: 20px;
-  width: 70px;
-  height: 35px;
+.main-image {
+  background-image: url("..//images/moreItems-main.jpg");
+  width: 100%;
+  height: 500px;
+  background-repeat: no-repeat;
 }
-.carousel .carousel-button {
+.main-image .carousel-button {
   background: red;
   color: white;
   border: none;
@@ -70,57 +70,39 @@ body {
   padding: 5px 20px;
   margin-bottom: 10px;
 }
-.carousel .carousel-button:hover {
+.main-image .carousel-button:hover {
   background: #ff6666;
   cursor: pointer;
 }
-.carousel .carousel-caption {
+.main-image .caption {
   text-shadow: 4px 4px 8px #000000;
-}
-.carousel .carousel-indicators li {
-  border-radius: 12px;
-  width: 12px;
-  height: 12px;
-}
-.main-sections {
-  padding: 0;
-  margin: 0;
-}
-.main-sections .section-box {
-  text-align: center;
+  position: relative;
+  top: 150px;
   color: white;
 }
-.main-sections .section-box button {
-  background: red;
-  color: white;
-  border: none;
-  border-radius: 20px;
-  padding: 5px 20px;
-  margin-bottom: 10px;
+.row-equal > div[class*='col-'] {
+  display: flex;
+  flex: 1 0 auto;
 }
-.main-sections .section-box button:hover {
-  background: #ff6666;
-  cursor: pointer;
-}
-.main-sections #section-1 {
-  background-image: url("..//images/slider1.jpg");
+.row-equal .card {
   width: 100%;
-  height: 200px;
 }
-.main-sections #section-2 {
-  background-image: url("..//images/slider1.jpg");
-  width: 100%;
-  height: 200px;
+/* ensure equal card height inside carousel */
+.carousel-inner > .row-equal.active,
+.carousel-inner > .row-equal.next,
+.carousel-inner > .row-equal.prev {
+  display: flex;
 }
-.main-sections #section-3 {
-  background-image: url("..//images/slider1.jpg");
-  width: 100%;
-  height: 200px;
+/* prevent flicker during transition */
+.carousel-inner > .row-equal.active.left,
+.carousel-inner > .row-equal.active.right {
+  opacity: 0.5;
+  display: flex;
 }
-.main-sections #section-4 {
-  background-image: url("..//images/slider1.jpg");
-  width: 100%;
-  height: 200px;
+/* control image height */
+.card-img-top-250 {
+  max-height: 250px;
+  overflow: hidden;
 }
 .footer-links {
   display: none;
