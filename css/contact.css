@@ -56,86 +56,40 @@ body {
 .dropdown-menu {
   background: transparent;
 }
-.main-image {
-  background-image: url("..//images/moreItems-main.jpg");
-  width: 100%;
-  height: 500px;
-  background-repeat: no-repeat;
+.form-heading {
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
-.main-image .carousel-button {
+.form-heading h1 {
+  margin: 0;
+  color: #3C81C3;
+}
+.form-area {
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  border-radius: 20px;
+}
+.form-area input {
+  border-radius: 20px;
+}
+.form-area textarea {
+  border-radius: 20px;
+}
+.form-area button {
+  width: 20%;
   background: red;
   color: white;
   border: none;
   border-radius: 20px;
-  padding: 5px 20px;
-  margin-bottom: 10px;
 }
-.main-image .carousel-button:hover {
+.form-area button:hover {
   background: #ff6666;
   cursor: pointer;
 }
-.main-image .caption {
-  text-shadow: 4px 4px 8px #000000;
-  position: relative;
-  top: 170px;
-  color: white;
-}
-.carousel-item > div {
-  float: left;
-  margin-bottom: 20px;
-}
-.carousel-by-item [class*="cloneditem-"] {
-  display: none;
-}
-.slider-heading {
-  margin-top: 50px;
-  text-align: center;
-}
-@media only screen and (min-width: 992px) {
-  .slider-heading {
-    text-align: left;
-    margin-top: 20px;
-  }
-}
-figcaption {
-  text-align: center;
-}
-.arrow-icon {
-  font-size: 50px;
-  height: 50px;
-  width: 50px;
-  background-size: 100%, 100%;
-  border-radius: 50%;
-  background-image: none;
-  color: red;
-  background: #b3b3b3;
-  position: relative;
-  bottom: 120px;
-}
-@media only screen and (min-width: 992px) {
-  .left-arrow {
-    right: 90px;
-    bottom: 25px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .left-arrow {
-    right: 110px;
-  }
-}
-@media only screen and (min-width: 992px) {
-  .right-arrow {
-    left: 90px;
-    bottom: 25px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .right-arrow {
-    left: 110px;
-  }
-}
-.fine-print {
-  font-size: 10px;
+.form-area .invalid-tooltip {
+  position: absolute;
+  top: 0;
 }
 .footer-links {
   display: none;

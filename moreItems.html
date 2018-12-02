@@ -14,7 +14,7 @@
 
 <!-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" style="background-color: #e3f2fd;"> -->
 		<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-		<a class="navbar-brand" href="#">
+		<a class="navbar-brand" href="index.html">
 				<img src="./images/logo.png" class="d-inline-block align-top" alt="logo">
 		</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -43,7 +43,7 @@
 
 					  <ul class="nav flex-column">
 					  <li class="nav-item">
-						<a class="nav-link active" href="#">Shirts</a>
+						<a class="nav-link" href="#">Shirts</a>
 					  </li>
 					  <li class="nav-item">
 						<a class="nav-link" href="#">Pants</a>
@@ -58,7 +58,7 @@
 
 					<ul class="nav flex-column">
 						<li>
-						<a class="nav-link" href="#">View All Items</a>
+						<a class="nav-link active" href="#">More Items</a>
 						</li>
 					</ul>
 
@@ -67,7 +67,7 @@
 					<div class="col-md-3">
 					  <ul class="nav flex-column">
 					  <li class="nav-item">
-						<a class="nav-link active" href="#">Outerwear</a>
+						<a class="nav-link" href="#">Outerwear</a>
 					  </li>
 					  <li class="nav-item">
 						<a class="nav-link" href="#">Jackets</a>
@@ -79,21 +79,21 @@
 					</div>
 					<!-- /.col-md-3  -->
 					<div class="col-md-3">
-					  <a href="">
-						<img src="https://dummyimage.com/200x100/ccc/000&text=image+link" alt="" class="img-fluid">
-					  </a>
-					  <p class="text-white">Short image call to action</p>
-	  
-					</div>
-					<!-- /.col-md-3  -->
-					<!-- /.col-md-3  -->
-					<div class="col-md-3">
-					  <a href="">
-						<img src="https://dummyimage.com/200x100/ccc/000&text=image+link" alt="" class="img-fluid">
-					  </a>
-					  <p class="text-white">Short image call to action</p>
-	  
-					</div>
+							<a href="">
+							<img src="images/hat4.jpg" alt="" class="img-fluid">
+							</a>
+							<p class="text-white">Hat</p>
+			
+						</div>
+						<!-- /.col-md-3  -->
+						<!-- /.col-md-3  -->
+						<div class="col-md-3">
+							<a href="">
+							<img src="images/shirt4.jpg" alt="" class="img-fluid">
+							</a>
+							<p class="text-white">Shirt</p>
+			
+						</div>
 					<!-- /.col-md-3  -->
 				  </div>
 				</div>
@@ -112,7 +112,7 @@
 					<a class="nav-link" href="#">Trending</a>
 			</li>
 			<li class="nav-item">
-					<a class="nav-link" href="#">Locate</a>
+					<a class="nav-link" href="contact.html">Contact</a>
 			</li>
 
 			<!--Seach-->
@@ -160,108 +160,205 @@
 </div><!--End main image-->
 
 <!--Slider Cards-->
-<section class="container p-t-3">
-        <div class="row">
-            <div class="col-lg-12">
-                <h1>Bootstrap 4 Card Slider</h1>
-            </div>
-        </div>
-    </section>
-    <section class="carousel slide" data-ride="carousel" id="postsCarousel">
+<style type="text/css" id="slider-css"></style>
+
+    <!--Hats-->
+    <div class="spe-cor">
         <div class="container">
+                <h3 class="slider-heading">Hats</h3>
             <div class="row">
-                <div class="col-xs-12 text-md-right lead">
-                    <a class="btn btn-outline-secondary prev" href="" title="go back"><i class="fa fa-lg fa-chevron-left"></i></a>
-                    <a class="btn btn-outline-secondary next" href="" title="more"><i class="fa fa-lg fa-chevron-right"></i></a>
+                    
+                <div id="slider-1" class="carousel carousel-by-item slide" data-ride="carousel" data-interval="false">
+                    <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active">
+                            <div class="col-md-3 col-sm-4 col-4">
+                                <figure>
+                                <img class="d-block img-fluid" src="./images/hat1.jpg" alt="First slide">
+                                <figcaption>Tan Hat</figcaption>
+                                </figure>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="col-md-3 col-sm-4 col-4">
+                                <figure>
+                                <img class="d-block img-fluid" src="./images/hat2.jpg" alt="First slide">
+                                <figcaption>Black Cap</figcaption>
+                                </figure>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="col-md-3 col-sm-4 col-4">
+                                <figure>
+                                <img class="d-block img-fluid" src="./images/hat3.jpg" alt="First slide">
+                                <figcaption>Nike SB</figcaption>
+                                </figure>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="col-md-3 col-sm-4 col-4">
+                                <figure>
+                                <img class="d-block img-fluid" src="./images/hat4.jpg" alt="First slide">
+                                <figcaption>Shade Hat</figcaption>
+                                </figure>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="col-md-3 col-sm-4 col-4">
+                                <figure>
+                                <img class="d-block img-fluid" src="./images/hat5.jpg" alt="First slide">
+                                <figcaption>Black Hat</figcaption>
+                                </figure>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <a class="carousel-control-prev" href="#slider-1" role="button" data-slide="prev">
+                            <span><i class="fa fa-angle-left arrow-icon left-arrow" aria-hidden="true"></i></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#slider-1" role="button" data-slide="next">
+                            <span><i class="fa fa-angle-right arrow-icon right-arrow" aria-hidden="true"></i></span>
+                        <span class="sr-only bg-dark">Next</span>
+                    </a>
                 </div>
             </div>
         </div>
-        <div class="container p-t-0 m-t-2 carousel-inner">
-            <div class="row row-equal carousel-item active m-t-0">
-                <div class="col-md-4">
-                    <div class="card">
-                        <div class="card-img-top card-img-top-250">
-                            <img class="img-fluid" src="http://i.imgur.com/EW5FgJM.png" alt="Carousel 1">
+    </div>
+
+    <!--Shoes-->
+    <div class="spe-cor">
+        <div class="container">
+                <h3 class="slider-heading">Shoes</h3>
+            <div class="row">
+                    
+                <div id="slider-2" class="carousel carousel-by-item slide" data-ride="carousel" data-interval="false">
+                    <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active">
+                            <div class="col-md-3 col-sm-4 col-4">
+                                <figure>
+                                <img class="d-block img-fluid" src="./images/shoe1.jpg" alt="First slide">
+                                <figcaption>Red Heels</figcaption>
+                                </figure>
+                            </div>
                         </div>
-                        <div class="card-block p-t-2">
-                            <h6 class="small text-wide p-b-2">Insight</h6>
-                            <h2>
-                                <a href>Why Stuff Happens Every Year.</a>
-                            </h2>
+                        <div class="carousel-item">
+                            <div class="col-md-3 col-sm-4 col-4">
+                                <figure>
+                                <img class="d-block img-fluid" src="./images/shoe2.jpg" alt="First slide">
+                                <figcaption>Blue Ones</figcaption>
+                                </figure>
+                            </div>
                         </div>
+                        <div class="carousel-item">
+                            <div class="col-md-3 col-sm-4 col-4">
+                                <figure>
+                                <img class="d-block img-fluid" src="./images/shoe3.jpg" alt="First slide">
+                                <figcaption>Blue, Grey, Red</figcaption>
+                                </figure>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="col-md-3 col-sm-4 col-4">
+                                <figure>
+                                <img class="d-block img-fluid" src="./images/shoe4.jpg" alt="First slide">
+                                <figcaption>Maroon Nike</figcaption>
+                                </figure>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="col-md-3 col-sm-4 col-4">
+                                <figure>
+                                <img class="d-block img-fluid" src="./images/shoe5.jpg" alt="First slide">
+                                <figcaption>Blue Nike</figcaption>
+                                </figure>
+                            </div>
+                        </div>
+                        
                     </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card">
-                        <div class="card-img-top card-img-top-250">
-                            <img class="img-fluid" src="http://i.imgur.com/Hw7sWGU.png" alt="Carousel 2">
-                        </div>
-                        <div class="card-block p-t-2">
-                            <h6 class="small text-wide p-b-2">Development</h6>
-                            <h2>
-                                <a href>How to Make Every Line Count.</a>
-                            </h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card">
-                        <div class="card-img-top card-img-top-250">
-                            <img class="img-fluid" src="http://i.imgur.com/g27lAMl.png" alt="Carousel 3">
-                        </div>
-                        <div class="card-block p-t-2">
-                            <h6 class="small text-wide p-b-2">Design</h6>
-                            <h2>
-                                <a href>Responsive is Essential.</a>
-                            </h2>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row row-equal carousel-item m-t-0">
-                <div class="col-md-4">
-                    <div class="card">
-                        <div class="card-img-top card-img-top-250">
-                            <img class="img-fluid" src="//visualhunt.com/photos/l/1/office-student-work-study.jpg" alt="Carousel 4">
-                        </div>
-                        <div class="card-block p-t-2">
-                            <h6 class="small text-wide p-b-2">Another</h6>
-                            <h2>
-                                <a href>Tagline or Call-to-action.</a>
-                            </h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card">
-                        <div class="card-img-top card-img-top-250">
-                            <img class="img-fluid" src="//visualhunt.com/photos/l/1/working-woman-technology-computer.jpg" alt="Carousel 5">
-                        </div>
-                        <div class="card-block p-t-2">
-                            <h6 class="small text-wide p-b-2"><span class="pull-xs-right">12.04</span> Category 1</h6>
-                            <h2>
-                                <a href>This is a Blog Title.</a>
-                            </h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 fadeIn wow">
-                    <div class="card">
-                        <div class="card-img-top card-img-top-250">
-                            <img class="img-fluid" src="//visualhunt.com/photos/l/1/people-office-team-collaboration.jpg" alt="Carousel 6">
-                        </div>
-                        <div class="card-block p-t-2">
-                            <h6 class="small text-wide p-b-2">Category 3</h6>
-                            <h2>
-                                <a href>Catchy Title of a Blog Post.</a>
-                            </h2>
-                        </div>
-                    </div>
+                    <a class="carousel-control-prev" href="#slider-2" role="button" data-slide="prev">
+                            <span><i class="fa fa-angle-left arrow-icon left-arrow" aria-hidden="true"></i></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#slider-2" role="button" data-slide="next">
+                            <span><i class="fa fa-angle-right arrow-icon right-arrow" aria-hidden="true"></i></span>
+                        <span class="sr-only bg-dark">Next</span>
+                    </a>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+
+    <!--Shirts-->
+    <div class="spe-cor">
+        <div class="container">
+                <h3 class="slider-heading">Shirts</h3>
+            <div class="row">
+                    
+                <div id="slider-3" class="carousel carousel-by-item slide" data-ride="carousel" data-interval="false">
+                    <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active">
+                            <div class="col-md-3 col-sm-4 col-4">
+                                <figure>
+                                <img class="d-block img-fluid" src="./images/shirt1.jpg" alt="First slide">
+                                <figcaption>White Tee</figcaption>
+                                </figure>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="col-md-3 col-sm-4 col-4">
+                                <figure>
+                                <img class="d-block img-fluid" src="./images/shirt2.jpg" alt="First slide">
+                                <figcaption>Black Tee</figcaption>
+                                </figure>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="col-md-3 col-sm-4 col-4">
+                                <figure>
+                                <img class="d-block img-fluid" src="./images/shirt3.jpg" alt="First slide">
+                                <figcaption>Green Tee</figcaption>
+                                </figure>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="col-md-3 col-sm-4 col-4">
+                                <figure>
+                                <img class="d-block img-fluid" src="./images/shirt4.jpg" alt="First slide">
+                                <figcaption>Plain White Tee</figcaption>
+                                </figure>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="col-md-3 col-sm-4 col-4">
+                                <figure>
+                                <img class="d-block img-fluid" src="./images/shirt5.jpg" alt="First slide">
+                                <figcaption>Blue Flower Tee</figcaption>
+                                </figure>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <a class="carousel-control-prev" href="#slider-3" role="button" data-slide="prev">
+                            <span><i class="fa fa-angle-left arrow-icon left-arrow" aria-hidden="true"></i></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#slider-3" role="button" data-slide="next">
+                            <span><i class="fa fa-angle-right arrow-icon right-arrow" aria-hidden="true"></i></span>
+                        <span class="sr-only bg-dark">Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
       <!--End Slider Cards-->
+
+      <!--Fine print-->
+      <div class="container fine-print">
+        <p>Lorem ipsum dolor sit amet, suspendisse amet duis, dapibus nulla aliquam velit arcu bibendum convallis, class tincidunt et sit. Nibh consectetuer mauris, tempor elit class enim non etiam, rhoncus iaculis, imperdiet nulla. Suspendisse fusce ultrices elit, lectus vestibulum habitasse pede, sagittis condimentum nam. Wisi lectus et in adipiscing integer. Dapibus wisi elit id massa, eget arcu ligula velit nullam quis purus, tempor in, blandit quam vel. Maecenas wisi molestie hendrerit, mattis feugiat morbi sed amet risus, inceptos vitae porttitor placerat lacus.</p>
+        <p>Diam libero, consectetuer vel mauris. Porttitor id id. Pretium leo, sit mauris. Laoreet malesuada, semper magna ullamcorper. Ipsum lobortis, ante eleifend justo.</p>
+        <p>Tempor lorem et, dictumst lacus. Vitae adipiscing, diam quo ut, lacinia mauris felis. Rutrum proin eros, imperdiet tempor, inceptos nec. Elementum eleifend mauris, metus quisque placerat, in ut. Nisl platea.</p>    
+        <p>Ornare class. Mauris rutrum ut, duis in sed, wisi velit. Luctus dui. Quam vivamus a. Proin lorem, faucibus sed, massa lectus fringilla. Fringilla a. Tortor gravida vestibulum, morbi in, condimentum ac eleifend. Feugiat praesent, mattis varius vivamus. Tincidunt pellentesque non, eget adipiscing adipiscing. Ut aliquam, nulla gravida magna, ac eros nullam. Magna suspendisse. Nunc nibh.</p>
+    </div>
 
 <!-- Footer -->
 <footer class="page-footer font-small">
@@ -406,22 +503,22 @@
 						<div class="row">
 						<div class="col-sm-3">
 							<li>
-							  <a href="#!">History</a>
+							  <a href="#!">Contact</a>
 							</li>
 						</div>
 						<div class="col-sm-3">
 								<li>
-								  <a href="#!">History</a>
+								  <a href="#!">Privacy</a>
 								</li>
 							</div>
 							<div class="col-sm-3">
 									<li>
-									  <a href="#!">History</a>
+									  <a href="#!">Terms & Conditions</a>
 									</li>
 								</div>
 								<div class="col-sm-3">
 										<li>
-										  <a href="#!">History</a>
+										  <a href="#!">Accessibility</a>
 										</li>
 									</div>
 								</div>

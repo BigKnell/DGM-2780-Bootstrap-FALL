@@ -76,6 +76,8 @@ body {
 }
 .carousel .carousel-caption {
   text-shadow: 4px 4px 8px #000000;
+  position: absolute;
+  top: 150px;
 }
 .carousel .carousel-indicators li {
   border-radius: 12px;
@@ -90,6 +92,11 @@ body {
   text-align: center;
   color: white;
 }
+.main-sections .section-box .section-content {
+  position: relative;
+  top: 80px;
+  text-shadow: 4px 4px 8px #000000;
+}
 .main-sections .section-box button {
   background: red;
   color: white;
@@ -103,24 +110,24 @@ body {
   cursor: pointer;
 }
 .main-sections #section-1 {
-  background-image: url("..//images/slider1.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("..//images/shoe2.jpg");
   width: 100%;
-  height: 200px;
+  height: 300px;
 }
 .main-sections #section-2 {
-  background-image: url("..//images/slider1.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("..//images/hat3.jpg");
   width: 100%;
-  height: 200px;
+  height: 300px;
 }
 .main-sections #section-3 {
-  background-image: url("..//images/slider1.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("..//images/shoe5.jpg");
   width: 100%;
-  height: 200px;
+  height: 300px;
 }
 .main-sections #section-4 {
-  background-image: url("..//images/slider1.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("..//images/shirt3.jpg");
   width: 100%;
-  height: 200px;
+  height: 300px;
 }
 .footer-links {
   display: none;
