@@ -76,8 +76,12 @@ body {
 }
 .carousel .carousel-caption {
   text-shadow: 4px 4px 8px #000000;
-  position: absolute;
-  top: 150px;
+}
+@media only screen and (min-width: 992px) {
+  .carousel .carousel-caption {
+    position: absolute;
+    top: 150px;
+  }
 }
 .carousel .carousel-indicators li {
   border-radius: 12px;
