@@ -1,4 +1,299 @@
-.clear {
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+html {
+  font-family: Helvetica, Arial, sans-serif;
+}
+html .image-cards .col-xs-12 {
+  font-size: 28px;
+  color: red;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+html .image-cards .col-sm-4 {
+  padding-left: 8px;
+  padding-right: 8px;
+  margin-bottom: 16px;
+}
+html .image-cards .col-sm-4 .card-img-overlay {
+  color: white;
+  text-shadow: 1px 1px black;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 36px;
+}
+html .image-shop {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+html .col-sm-3 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+html .col-sm-3 p.card-text {
+  display: flex;
+  justify-content: center;
+}
+html h1 {
+  display: flex;
+  justify-content: center;
+  color: red;
+  font-size: 36px;
+  font-weight: 900;
+}
+html .needs-validation {
+  padding: 40px;
+}
+html .needs-validation .form-control.free-text {
+  display: flex;
+  height: 200px;
+  justify-content: center;
+}
+html .container-fluid {
+  padding-left: 150px;
+  padding-right: 150px;
+}
+@media (max-width: 500px) {
+  html .container-fluid {
+    padding: 0;
+  }
+}
+@media (max-width: 900px) {
+  html .container-fluid {
+    padding: 0;
+  }
+}
+html .container-fluid .mb-0 {
+  display: flex;
+  justify-content: center;
+}
+html .container-fluid .mb-0 .btn-link {
+  color: black;
+  font-weight: 900;
+  font-size: 26px;
+}
+.alert-warning {
+  background-color: black;
+  color: white;
+  margin-bottom: 0rem;
+  text-align: center;
+}
+.navbar-light {
+  background-color: white;
+}
+.navbar-light .navbar-brand {
+  display: flex;
+  color: black;
+  font-size: 25px;
+  align-items: center;
+  margin-right: 0;
+}
+.navbar-light .navbar-brand img {
+  margin-right: 10px;
+}
+.navbar-light .container.search-box {
+  display: flex;
+  justify-content: center;
+  margin-left: 0;
+  padding-left: 0;
+}
+@media (max-width: 500px) {
+  .navbar-light .container.search-box {
+    display: none;
+  }
+}
+@media (max-width: 900px) {
+  .navbar-light .container.search-box {
+    display: none;
+  }
+}
+.navbar-expand-lg {
+  border-top: 1px solid black;
+  border-bottom: 1px solid grey;
+  background: white;
+  color: black;
+}
+.navbar-expand-lg .navbar-nav {
+  margin-left: 10px;
+}
+.navbar-expand-lg .navbar-nav .custom-style {
+  max-width: 100%;
+  height: 37px;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 900;
+}
+.navbar-expand-lg .navbar-nav .custom-style a {
+  color: black;
+}
+.carousel-title {
+  font-weight: 700;
+  font-size: 24px;
+  font-style: Helvetica, Arial, sans-serif;
+}
+.container.amenities {
+  max-width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.card-deck {
+  margin: 135px;
+  margin-top: 0;
+  margin-bottom: 0;
+  display: flex;
+}
+.card-deck .card {
+  justify-content: space-around;
+}
+.card-deck .card .card-title {
+  display: flex;
+  justify-content: center;
+}
+.card-deck .card .card-text {
+  font-weight: 100;
+}
+.container.image-spacer {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  max-width: 100%;
+  margin-bottom: 40px;
+}
+/* .clear {
   clear: both; }
 
 nav {
@@ -17,5 +312,5 @@ nav {
   width: 200px;
   height: 200px;
   background: gray; }
-
+ */
 /*# sourceMappingURL=main.css.map */
