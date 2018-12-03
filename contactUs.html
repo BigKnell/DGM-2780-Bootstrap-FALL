@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>The Bookstore</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- <link href="img/favicon.png" type="img/png" rel="icon"> -->
+  <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet">
+  <link href="css/index.css" type="text/css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans+SC" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+</head>
+<body>
+  <div class="body">
+
+<!------------------------NAVIGATION--------------------------->
+<div class="row">
+  <div class="mainContent">
+  <div class="pageNav col-12 col-md-12 col-lg-3">
+<header class="masthead mb-auto">
+  <div class="navigation">  
+  <a class="nav-link" href="index.html">
+  <figure class="logo"><img src="images/globeIcon.png"></figure>
+  </a>
+  <h1 class="masthead-brand brandName">The Bookstore</h1>
+        
+  
+
+  <div>
+  <nav class="nav">
+
+    <ul class="nav">
+  <li class="nav-item">
+    <a class="nav-link" href="#">Books</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="staffPick.html">Used Books</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Staff Picks</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Locations</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link active" href="contactUs.html">Contact Us</a>
+  </li>
+</ul>
+
+  </nav>
+</div>
+
+  </div>
+
+</header>
+</div>
+
+
+<!------------------------NAVIGATION-END--------------------------->
+
+
+
+
+<!------------------------MAIN--------------------------->
+<div class="mainBack col-12 col-md-12 col-lg-9">
+
+
+  <main>
+  <div><h1 class="pageTitle">Contact Us</h1></div>
+
+  <ul class="iconBag">
+    <li><i class="fas fa-shopping-bag"></i></li>
+  </ul>
+
+
+
+<!--------------CARD-SECTION-------------------->
+<div class="contactForm">
+<form class="needs-validation" novalidate>
+  <div class="form-row">
+    <div class="col-md-6">
+      <label for="validationCustom01">First name</label>
+      <input type="text" class="form-control" id="validationCustom01" placeholder="First name"required>
+      <div class="invalid-feedback">
+        Please enter first and last name. 
+      </div>
+      <div class="valid-feedback">
+        Looks good!
+      </div>
+    </div>
+    <div class="col-md-6">
+      <label for="validationCustom02">Last name</label>
+      <input type="text" class="form-control" id="validationCustom02" placeholder="Last name"required>
+      <div class="valid-feedback">
+        Looks good!
+      </div>
+    </div>
+  </div>
+  <div class="form-row">
+    <div class="col-12">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" required>
+    <div class="invalid-feedback">
+        Please provide a valid email.
+      </div>
+  </div>
+  </div>
+  <div class="form-row">
+    <div class="col-md-6 mb-3">
+      <label for="validationCustom03">City</label>
+      <input type="text" class="form-control" placeholder="City">
+    </div>
+    <div class="col-md-3 mb-3">
+      <label for="validationCustom04">State</label>
+      <input type="text" class="form-control" placeholder="State">
+    </div>
+    <div class="col-md-3 mb-3">
+      <label for="validationCustom05">Zip</label>
+      <input type="text" class="form-control" placeholder="Zip">
+    </div>
+  </div>
+<div>
+  <div class="form-group">
+    <label for="exampleFormControlTextarea1">Message</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" required></textarea>
+  </div>
+</div>
+  <button class="btn btn-primary" type="submit">Submit form</button>
+</form>
+</div>
+</main>
+</div>
+</div>
+</div>
+<!--------------CARD-SECTION-END-------------------->
+
+
+<!------------------------MAIN-END--------------------------->
+
+
+<!------------------------FOOTER--------------------------->
+    <div class="row">
+      <div class="footer col-12">
+<footer>
+  <p>Sign Up for out Newsletter</p>
+  <p><input type="text" value="enter your email here..."></p>
+  <ul>
+    <li><a href="#"></a>facebook</li>
+    <li><a href="#"></a>twitter</li>
+    <li><a href="#"></a>instagram</li>
+  </ul>
+  <p>&copy; 2018 Bookstore</p>
+</footer>
+</div>
+</div>
+</div>
+<!------------------------FOOTER-END-------------------------->
+  
+<!-- Your code here! -->
+  
+
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+<script>
+// Example starter JavaScript for disabling form submissions if there are invalid fields
+(function() {
+  'use strict';
+  window.addEventListener('load', function() {
+    // Fetch all the forms we want to apply custom Bootstrap validation styles to
+    var forms = document.getElementsByClassName('needs-validation');
+    // Loop over them and prevent submission
+    var validation = Array.prototype.filter.call(forms, function(form) {
+      form.addEventListener('submit', function(event) {
+        if (form.checkValidity() === false) {
+          event.preventDefault();
+          event.stopPropagation();
+        }
+        form.classList.add('was-validated');
+      }, false);
+    });
+  }, false);
+})();
+</script>
+</body>
+</html>

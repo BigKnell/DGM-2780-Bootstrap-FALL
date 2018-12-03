@@ -1,0 +1,52 @@
+
+.mainContent { 
+display: flex; 
+justify-content: flex-end; 
+width: 100%; 
+@media @mobile {
+display: inline;
+margin: 0 auto;
+	justify-content: center;
+	}
+	@media @tab {
+	display: inline;
+	justify-content: center;
+	}
+}
+.mainBack {
+@media @tab {
+display: flex;
+justify-content: center;
+margin: 0 auto;
+}
+
+@media @mobile {
+display: flex;
+justify-content: center;
+margin: 0 auto;
+width: 100%;
+}
+
+
+h1 {font-size: 60px; margin-top: 2rem; margin-left: 4rem;}
+margin-top: 3rem;
+	.cardSection {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+
+	
+
+	.card {
+	padding: .5rem;
+	margin: 4rem 2rem 4rem 2rem;
+	@media @tab {
+	margin: 6rem .2rem 4rem 4.5rem;
+	}
+
+	@media @mobile {
+	margin: 6rem 0 4rem 0;
+	}
+	}
+	}
+}

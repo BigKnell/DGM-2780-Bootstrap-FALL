@@ -1,21 +1,217 @@
-.clear {
-  clear: both; }
-
-nav {
-  float: left;
-  color: #FF0000;
-  font-family: Helvetica, sans-serif; }
-  nav ul li ul.sub-nav {
-    display: none; }
-
-.box {
-  width: 200px;
-  height: 200px;
-  background: red; }
-
-.box2 {
-  width: 200px;
-  height: 200px;
-  background: gray; }
-
-/*# sourceMappingURL=main.css.map */
+html,
+body {
+  display: -ms-flexbox;
+  background-color: #d5d5d5;
+  font-family: 'Noto Sans SC', sans-serif;
+}
+@media (max-width: 576px) {
+  .pageNav {
+    margin-left: 0;
+    display: flex;
+    justify-content: center;
+  }
+}
+@media (max-width: 991.98px) {
+  .pageNav {
+    margin-left: 0;
+    display: flex;
+    justify-content: center;
+  }
+}
+.pageNav h1.brandName {
+  position: relative;
+  z-index: 4;
+}
+@media (max-width: 576px) {
+  .pageNav h1.brandName {
+    display: flex;
+    justify-content: center;
+    margin: -5rem 0 5rem 0;
+  }
+}
+@media (max-width: 991.98px) {
+  .pageNav h1.brandName {
+    display: flex;
+    justify-content: center;
+    margin: -5rem 0 5rem 0;
+  }
+}
+.pageNav .navigation {
+  margin-left: 3rem;
+}
+.pageNav .navigation figure.logo {
+  position: relative;
+  z-index: 3;
+}
+@media (max-width: 576px) {
+  .pageNav .navigation figure.logo {
+    justify-content: center;
+    margin: -5rem 0 5rem 0;
+  }
+}
+@media (max-width: 991.98px) {
+  .pageNav .navigation figure.logo {
+    justify-content: center;
+    margin-bottom: 4rem;
+  }
+}
+.pageNav .navigation figure.logo img {
+  margin: 2rem 6rem 1.5rem 6rem;
+  height: 100px;
+  width: 75px;
+}
+@media (max-width: 576px) {
+  .pageNav .navigation figure.logo img {
+    margin-top: 5rem;
+  }
+}
+ul.nav {
+  z-index: 2;
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+}
+@media (max-width: 576px) {
+  ul.nav {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media (max-width: 991.98px) {
+  ul.nav {
+    display: flex;
+    justify-content: center;
+  }
+}
+ul.nav li {
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  text-align: center;
+  padding: 1.5rem 6rem 1.5rem 6rem;
+  margin: 0 0 0 0;
+}
+@media (max-width: 576px) {
+  ul.nav li {
+    padding: 1.5rem 6rem 1.5rem 6rem;
+  }
+}
+ul.iconBag {
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+}
+ul.iconBag li {
+  margin: -7rem 0 7rem 0;
+  color: #000;
+  font-size: 30px;
+  text-decoration: none;
+}
+main .carousel {
+  z-index: 0;
+  position: fixed;
+  opacity: 0.6;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+.footer {
+  margin-top: 15rem;
+  z-index: 5;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.footer footer {
+  text-align: center;
+}
+.footer footer p {
+  margin: 0;
+  padding: 3rem 0 3rem 0;
+  color: #fff;
+}
+.footer footer ul {
+  list-style-type: none;
+}
+.footer footer ul li {
+  flex-direction: row;
+  text-decoration: none;
+  padding: 1.5rem;
+  color: #fff;
+}
+.mainContent {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+@media (max-width: 576px) {
+  .mainContent {
+    display: inline;
+    margin: 0 auto;
+    justify-content: center;
+  }
+}
+@media (max-width: 991.98px) {
+  .mainContent {
+    display: inline;
+    justify-content: center;
+  }
+}
+.mainBack {
+  margin-top: 3rem;
+}
+@media (max-width: 991.98px) {
+  .mainBack {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 576px) {
+  .mainBack {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 100%;
+  }
+}
+.mainBack h1 {
+  font-size: 60px;
+  margin-top: 2rem;
+  margin-left: 4rem;
+}
+.mainBack .cardSection {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.mainBack .cardSection .card {
+  padding: 0.5rem;
+  margin: 4rem 2rem 4rem 2rem;
+}
+@media (max-width: 991.98px) {
+  .mainBack .cardSection .card {
+    margin: 6rem 0.2rem 4rem 4.5rem;
+  }
+}
+@media (max-width: 576px) {
+  .mainBack .cardSection .card {
+    margin: 6rem 0 4rem 0;
+  }
+}
+nav.pageNav {
+  margin-left: 75%;
+}
+.pageNum {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 1.5rem;
+}
+.contactForm {
+  width: 100%;
+  margin-top: 5rem;
+  padding: 2rem 2rem 0 2rem;
+}
+.contactForm .form-group {
+  padding: 2rem 0.75rem 2rem 0;
+}
