@@ -81,6 +81,13 @@ h1 .latestNews {
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 }
 
+h1 .heading {
+	margin: 5px;
+	line-height: 20px;
+	text-align: center; 
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+
 footer {
 		margin-top: 10px;
 		background: lightgray;
@@ -196,6 +203,11 @@ form.newsletter textarea {
 		color: #fff;
 		font-size: 19px;
 
+	}
+	
+	.carousel-caption {
+		top: 0%;
+		color: black;
 	}
 	
 	
