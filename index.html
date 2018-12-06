@@ -12,7 +12,7 @@
 	
 <!-- Your code here! -->
     
-<div class="alert alert-warning alert-dismissible fade show" role="alert">
+<div id="alert" class="alert alert-warning alert-dismissible fade show" role="alert">
   <strong>BLACK FRIDAY 20% OFF!</strong> Use Code: RIDE
   <button type="button" class="close" data-dismiss="alert" aria-label="Close">
     <span aria-hidden="true">&times;</span>
@@ -20,7 +20,7 @@
 </div>
     
     
-    <figure class="logo"><img src="images/logo.png"></figure>
+    <figure class="logo" id="logo"><img src="images/logo.png"></figure>
     
     <ul class="nav justify-content-center">
   <li class="nav-item">
@@ -65,27 +65,27 @@
     
 <div class="container-tall">
     <div class="row">
-        <div class="img-fluid col-sm-3 col-md-3 col-lg-3">
+        <div id="thumb1" class="img-fluid col-sm-3 col-md-3 col-lg-3">
             <img src="images/tall1.jpg">
         </div>
-        <div class="img-fluid col-sm-3 col-md-3 col-lg-3">
+        <div id="thumb2" class="img-fluid col-sm-3 col-md-3 col-lg-3">
             <img src="images/tall2.jpg">
         </div>
-        <div class="img-fluid col-sm-3 col-md-3 col-lg-3">
+        <div id="thumb3" class="img-fluid col-sm-3 col-md-3 col-lg-3">
             <img src="images/tall3.jpg">
         </div>
-        <div class="img-fluid col-sm-3 col-md-3 col-lg-3">
+        <div id="thumb4" class="img-fluid col-sm-3 col-md-3 col-lg-3">
             <img src="images/tall4.jpg">
         </div>
         
     </div>
 </div>
 
-<div class="container-fluid banner2">
-    <div class="container"> 
+<div id="animate-banner" class="container-fluid banner2">
+    <div id="animate-banner" class="container"> 
         <h1>It's Finally Here</h1>
         <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-        <button type="button" class="btn btn-light" href="road.html">CHECK OUT NEW ARRIVALS</button>
+        <button id="btn-banner" type="button" class="btn btn-light" href="road.html">CHECK OUT NEW ARRIVALS</button>
     </div>
 </div>
     
@@ -154,6 +154,7 @@
 
 <script type="text/javascript" src="js/jquery.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
 <script type="text/javascript" src="js/popper.min.js"></script>
 <script type="text/javascript" src="js/index.js"></script>
 
