@@ -149,6 +149,14 @@ form.newsletter textarea {
 	
 }
 
+.card {
+	display: flex;
+	align-items: center;
+	margin-bottom: 10px;
+	margin-left: 35%;
+	margin-top: 10px;
+}
+
 
 @media (min-width: 900px) { 
 	
@@ -210,6 +218,10 @@ form.newsletter textarea {
 		color: black;
 	}
 	
+	.wrapper {
+		max-width: 900px;
+		margin: auto;
+	}
 	
 }
 
