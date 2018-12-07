@@ -56,13 +56,13 @@ body {
 .dropdown-menu {
   background: transparent;
 }
-.carousel .carousel-control-prev-icon,
-.carousel .carousel-control-next-icon {
-  border-radius: 20px;
-  width: 70px;
-  height: 35px;
+.main-image {
+  background-image: url("..//images/moreItems-main.jpg");
+  width: 100%;
+  height: 500px;
+  background-repeat: no-repeat;
 }
-.carousel .carousel-button {
+.main-image .carousel-button {
   background: red;
   color: white;
   border: none;
@@ -70,68 +70,72 @@ body {
   padding: 5px 20px;
   margin-bottom: 10px;
 }
-.carousel .carousel-button:hover {
+.main-image .carousel-button:hover {
   background: #ff6666;
   cursor: pointer;
 }
-.carousel .carousel-caption {
+.main-image .caption {
   text-shadow: 4px 4px 8px #000000;
+  position: relative;
+  top: 170px;
+  color: white;
+}
+.carousel-item > div {
+  float: left;
+  margin-bottom: 20px;
+}
+.carousel-by-item [class*="cloneditem-"] {
+  display: none;
+}
+.slider-heading {
+  margin-top: 50px;
+  text-align: center;
 }
 @media only screen and (min-width: 992px) {
-  .carousel .carousel-caption {
-    position: absolute;
-    top: 150px;
+  .slider-heading {
+    text-align: left;
+    margin-top: 20px;
   }
 }
-.carousel .carousel-indicators li {
-  border-radius: 12px;
-  width: 12px;
-  height: 12px;
-}
-.main-sections {
-  padding: 0;
-  margin: 0;
-}
-.main-sections .section-box {
+figcaption {
   text-align: center;
-  color: white;
 }
-.main-sections .section-box .section-content {
+.arrow-icon {
+  font-size: 50px;
+  height: 50px;
+  width: 50px;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  background-image: none;
+  color: red;
+  background: #b3b3b3;
   position: relative;
-  top: 80px;
-  text-shadow: 4px 4px 8px #000000;
+  bottom: 120px;
 }
-.main-sections .section-box button {
-  background: red;
-  color: white;
-  border: none;
-  border-radius: 20px;
-  padding: 5px 20px;
-  margin-bottom: 10px;
+@media only screen and (min-width: 992px) {
+  .left-arrow {
+    right: 90px;
+    bottom: 25px;
+  }
 }
-.main-sections .section-box button:hover {
-  background: #ff6666;
-  cursor: pointer;
+@media screen and (min-width: 1200px) {
+  .left-arrow {
+    right: 110px;
+  }
 }
-.main-sections #section-1 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("..//images/shoe2.jpg");
-  width: 100%;
-  height: 300px;
+@media only screen and (min-width: 992px) {
+  .right-arrow {
+    left: 90px;
+    bottom: 25px;
+  }
 }
-.main-sections #section-2 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("..//images/hat3.jpg");
-  width: 100%;
-  height: 300px;
+@media screen and (min-width: 1200px) {
+  .right-arrow {
+    left: 110px;
+  }
 }
-.main-sections #section-3 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("..//images/shoe5.jpg");
-  width: 100%;
-  height: 300px;
-}
-.main-sections #section-4 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("..//images/shirt3.jpg");
-  width: 100%;
-  height: 300px;
+.fine-print {
+  font-size: 10px;
 }
 .footer-links {
   display: none;

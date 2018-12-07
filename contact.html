@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Home</title>
+	<title>Contact</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- <link href="img/favicon.png" type="img/png" rel="icon"> -->
 	<link href="css/bootstrap.min.css" type="text/css" rel="stylesheet">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
-	<link href="css/index.css" type="text/css" rel="stylesheet">
+	<link href="css/contact.css" type="text/css" rel="stylesheet">
 </head>
 <header>
 	
@@ -16,7 +15,7 @@
 <!-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" style="background-color: #e3f2fd;"> -->
 		<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
 		<a class="navbar-brand" href="index.html">
-				<img src="./images/logo.png" class="d-inline-block align-top logo-image" alt="logo">
+				<img src="./images/logo.png" class="d-inline-block align-top" alt="logo">
 		</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 		  <span class="navbar-toggler-icon"></span>
@@ -80,21 +79,21 @@
 					</div>
 					<!-- /.col-md-3  -->
 					<div class="col-md-3">
-					  <a href="">
-						<img src="images/hat4.jpg" alt="" class="img-fluid">
-					  </a>
-					  <p class="text-white">Hat</p>
-	  
-					</div>
-					<!-- /.col-md-3  -->
-					<!-- /.col-md-3  -->
-					<div class="col-md-3">
-					  <a href="">
-						<img src="images/shirt4.jpg" alt="" class="img-fluid">
-					  </a>
-					  <p class="text-white">Shirt</p>
-	  
-					</div>
+							<a href="">
+							<img src="images/hat4.jpg" alt="" class="img-fluid">
+							</a>
+							<p class="text-white">Hat</p>
+			
+						</div>
+						<!-- /.col-md-3  -->
+						<!-- /.col-md-3  -->
+						<div class="col-md-3">
+							<a href="">
+							<img src="images/shirt4.jpg" alt="" class="img-fluid">
+							</a>
+							<p class="text-white">Shirt</p>
+			
+						</div>
 					<!-- /.col-md-3  -->
 				  </div>
 				</div>
@@ -113,7 +112,7 @@
 					<a class="nav-link" href="#">Trending</a>
 			</li>
 			<li class="nav-item">
-					<a class="nav-link" href="contact.html">Contact</a>
+					<a class="nav-link active" href="contact.html">Contact</a>
 			</li>
 
 			<!--Seach-->
@@ -152,94 +151,72 @@
 <body>
 	
 <!-- Your code here! -->
-<div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
-		<ol class="carousel-indicators">
-				<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-				<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-				<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-			  </ol>
-		<div class="carousel-inner">
-		  <div class="carousel-item active">
-			<!-- <img class="d-block w-100" src="./images/slider1.jpg" srcset="./images/slider1.jpg 200h" alt="First slide"> -->
-				<picture>
-					<source class="d-block w-100" srcset="./images/slider1.jpg" media="(min-width: 800px)" />
-					<img class="d-block w-100" src="./images/slider1mobile.jpg" alt=""/>
-				  </picture>
-				<div class="carousel-caption d-md-block">
-					<h1>Our Winter Collection</h1>
-					<p>Check Out Our Winter Appearal</p>
-					<button class="carousel-button">Shop Now</button>
-				  </div>
-		</div>
-		  <div class="carousel-item">
-				<picture>
-						<source class="d-block w-100" srcset="./images/slider2.jpg" media="(min-width: 800px)" />
-						<img class="d-block w-100" src="./images/slider2mobile.jpg" alt=""/>
-					  </picture>
-			<div class="carousel-caption d-md-block">
-					<h1>We Have all the Brands</h1>
-					<p>Check Out Our Tee Shirts</p>
-					<button class="carousel-button">Shop Now</button>
-				  </div>
-		  </div>
-		  <div class="carousel-item">
-				<picture>
-						<source class="d-block w-100" srcset="./images/slider3.jpg" media="(min-width: 800px)" />
-						<img class="d-block w-100" src="./images/slider3mobile.jpg" alt=""/>
-					  </picture>
-			<div class="carousel-caption d-md-block">
-					<h1>Styles for Every Occasion</h1>
-					<p>See Our Other Items</p>
-					<button class="carousel-button">Shop Now</button>
-				  </div>
-		  </div>
-		</div>
-		<a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
-		  <span class="carousel-control-prev-icon bg-dark" aria-hidden="true"></span>
-		  <span class="sr-only">Previous</span>
-		</a>
-		<a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
-		  <span class="carousel-control-next-icon bg-dark" aria-hidden="true"></span>
-		  <span class="sr-only">Next</span>
-		</a>
+<div class="container form-heading">
+<h1>Contact Form</h1>
 </div>
+<div class="container form-area">
+    
+<form class="needs-validation" novalidate>
+        <div class="form-row">
+          <div class="col-md-4 mb-3">
+            <label for="validationTooltip01">First name</label>
+            <input type="text" class="form-control" id="validationTooltip01" placeholder="First name" value="Mark" required>
+            <div class="invalid-tooltip">
+                Please provide your first name.
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <label for="validationTooltip02">Last name</label>
+            <input type="text" class="form-control" id="validationTooltip02" placeholder="Last name" value="Otto" required>
+            <div class="invalid-tooltip">
+                Please provide your first name.
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <label for="validationTooltipEmail">Email</label>
+              <input type="email" class="form-control" id="validationTooltipEmail" placeholder="Email" required>
+              <div class="invalid-tooltip">
+                Please provide a valid email address.
+              </div>
+  
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="col-md-6 mb-3">
+            <label for="validationTooltip03">City</label>
+            <input type="text" class="form-control" id="validationTooltip03" placeholder="City" required>
+            <div class="invalid-tooltip">
+              Please provide a valid city.
+            </div>
+          </div>
+          <div class="col-md-3 mb-3">
+            <label for="validationTooltip04">State</label>
+            <input type="text" class="form-control" id="validationTooltip04" placeholder="State" required>
+            <div class="invalid-tooltip">
+              Please provide a valid state.
+            </div>
+          </div>
+          <div class="col-md-3 mb-3">
+            <label for="validationTooltip05">Zip</label>
+            <input type="text" class="form-control" id="validationTooltip05" placeholder="Zip" required>
+            <div class="invalid-tooltip">
+              Please provide a valid zip.
+            </div>
+          </div>
 
-<div class="container-fluid main-sections">
-	<div class="row">
-
-			<div class="col-md-6 col-sm-12 section-box" id="section-1">
-					<div class="section-content">
-							<h1>Shoes</h1>
-							<p>See Our Large Selection</p>
-							<button>Shop Shoes</button>
-						</div>
-			</div>
-
-
-		<div class="col-md-6 col-sm-12 section-box" id="section-2">
-				<div class="section-content">
-						<h1>Hats</h1>
-						<p>We've Got all the Brands</p>
-						<button>Shop Hats</button>
-					</div>
-		</div>
-		<div class="col-md-6 col-sm-12 section-box" id="section-3">
-				<div class="section-content">
-						<h1>We Carry Nike</h1>
-						<p>Check Our All Our Nike Products</p>
-						<button>Shop Nike</button>
-					</div>
-		</div>
-		<div class="col-md-6 col-sm-12 section-box" id="section-4">
-				<div class="section-content">
-						<h1>Shirts</h1>
-						<p>Shirts in Every Style</p>
-						<button>Shop Shirts</button>
-					</div>
-		</div>
-	</div>
-
-</div>
+              <div class="col-md-12">
+              <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Tell us why you're contacting us</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1 " required rows="3"></textarea>
+                    <div class="invalid-tooltip">
+                            Please type out a message.
+                            </div>  
+                </div>
+                </div>
+        </div>
+        <button class="btn btn-primary" type="submit">Submit</button>
+      </form>
+    </div>
 
 <!-- Footer -->
 <footer class="page-footer font-small">
@@ -424,7 +401,7 @@
 
 <script type="text/javascript" src="js/jquery.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
-<script type="text/javascript" src="js/index.js"></script>
+<script type="text/javascript" src="js/contact.js"></script>
 
 </body>
 </html>

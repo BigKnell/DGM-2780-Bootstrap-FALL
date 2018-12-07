@@ -1,0 +1,232 @@
+body {
+    margin-top: 65px;
+    z-index: -1;
+     //tablet size
+     @media only screen and (min-width: 992px) {
+      margin-top: 120px;
+    }
+  }
+  
+  .navbar {
+    background:rgba(0,0,0,0.8);
+    max-height: 500px;
+    overflow-x: auto;
+    .form-inline {
+      width: 100%;
+    input {
+      border-radius: 20px;
+      width: 75%;
+    }
+    button {
+      width: 20%;
+      background: red;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    }
+  }
+    //tablet size
+    @media only screen and (min-width: 992px) {
+      overflow-x: visible;
+      max-height: 100%;
+    }
+  }
+  
+  .navbar-brand {
+    img {
+      width: 40px;
+    }
+    margin: auto;
+    //tablet size
+    @media only screen and (min-width: 992px) {
+      position: absolute;
+      img {
+        width: 60px;
+      }
+    }
+  
+  }
+  
+  .top-links {
+    height: 30px;
+  }
+   
+   /* adds some margin below the link sets  */
+  .navbar .dropdown-menu div[class*="col"] {
+    margin-bottom:1rem;
+  }
+  
+  .dropdown-menu {
+    background:transparent;
+  }
+  
+.main-image {
+  background-image: url("..//images/moreItems-main.jpg");
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    .carousel-button {
+      background: red;
+      color: white;
+      border: none;
+      border-radius: 20px;
+      padding: 5px 20px;
+      margin-bottom: 10px;
+    }
+    .carousel-button:hover {
+      background: lighten(red, 20%);
+      cursor: pointer;
+    }
+    .caption {
+      text-shadow: 4px 4px 8px #000000;
+      position: relative;
+      top: 170px;
+      color: white;
+    }
+}
+  
+//sliders
+.carousel-item > div {
+  float: left;
+  margin-bottom: 20px;
+}
+.carousel-by-item [class*="cloneditem-"] {
+  display: none;
+}
+.slider-heading {
+  margin-top: 50px;
+  text-align: center;
+  //tablet size
+  @media only screen and (min-width: 992px) {
+    text-align: left;
+    margin-top: 20px;
+  }
+}
+
+figcaption {
+  text-align: center;
+}
+
+.arrow-icon {
+  font-size: 50px;
+  height: 50px;
+  width: 50px;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  background-image: none;
+  color: red;
+  background: darken(white, 30%);
+  position: relative;
+  bottom: 120px;
+}
+.left-arrow {
+  //tablet size
+  @media only screen and (min-width: 992px) {
+  right: 90px;
+  bottom: 25px;
+  }
+  //large desktop
+  @media screen and (min-width: 1200px) {
+    right: 110px;
+  }
+}
+.right-arrow {
+  //tablet size
+  @media only screen and (min-width: 992px) {
+  left: 90px;
+  bottom: 25px;
+  }
+  //large desktop
+  @media screen and (min-width: 1200px) {
+    left: 110px;
+  }
+}
+//end sliders
+
+//fine print
+.fine-print {
+  font-size: 10px;
+}
+  
+  .footer-links {
+    display: none;
+    //tablet size
+    @media only screen and (min-width: 992px) {
+      display: block;
+    }
+  }
+  
+  .page-footer {
+    background:rgba(0,0,0,0.8);
+    color: white;
+    padding: 20px;
+    a {
+      color: white;
+    }
+  .social-icons {
+  width: 100%;
+    margin-top: 10px;
+  
+        i {
+            font-size: 60px;
+            color: #3C81C3;
+        }
+        i:hover {
+            color: darken(#3C81C3, 20%);
+            cursor: pointer;
+        }
+        .mobile-links {
+          margin: 20px 0;
+        }
+    
+      }
+      .copywright {
+        margin-top: 20px;
+      }
+  }
+  
+  /* breakpoint and up - mega dropdown styles */
+  @media screen and (min-width: 992px) {
+   
+   /* remove the padding from the navbar so the dropdown hover state is not broken */
+  .navbar {
+   padding-top:0px;
+   padding-bottom:0px;
+   height: 120px;
+  }
+  
+  /* remove the padding from the nav-item and add some margin to give some breathing room on hovers */
+  .navbar .nav-item {
+   padding:.5rem .5rem;
+   margin: 0 1rem;
+  }
+  
+  /* makes the dropdown full width  */
+  .navbar .dropdown {
+    position:static;
+  }
+  
+  .navbar .dropdown-menu {
+    border:none;
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    top:70px;
+    .nav-item {
+      border-top: 1px solid white;
+      border-bottom: 1px solid white;
+      padding: 0 .5rem;
+    }
+  }
+   
+  
+   
+   .navbar .dropdown-menu {
+     border: 1px solid rgba(0,0,0,.15);
+     background:rgba(0,0,0,0.8);
+   }
+  
+  }
