@@ -228,6 +228,26 @@ h4 {
 .container-social .fa:hover {
   opacity: 0.7;
 }
+#logo {
+  position: relative;
+}
 h1 {
   color: #604D57;
+}
+#logo {
+  position: relative;
+}
+h1 {
+  color: #604D57;
+}
+#logo {
+  position: relative;
+}
+#demo {
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.green {
+  background-color: #6fb936;
 }

@@ -16,7 +16,7 @@
 <div class="container-fluid-header">
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <a href="index.html">
-  <img class="navbar-brand" src="images/SpaLogo220x220.png" alt="The Beauty Spa Logo With Lilly Icon"></img>
+  <img class="navbar-brand" id="logo" src="images/SpaLogo220x220.png" alt="The Beauty Spa Logo With Lilly Icon"></img>
   </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -114,8 +114,8 @@
                                 </div>
                             <!-- Button -->
                             <div class="col-md-12">
-                            <div class="form-group">
-                                <input type="submit" name="btnSubmit" class="btnContact" value="Send Message">
+                            <div id="demo" class="form-group">
+                                <input id="greenBox" class="box green" type="submit" name="btnSubmit" class="btnContact" value="Send Message">
                             </div>
                             </div>
                         </div>
@@ -209,6 +209,7 @@
 
 <script type="text/javascript" src="js/jquery.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
 <script type="text/javascript" src="js/index.js"></script>
 
 </body>
