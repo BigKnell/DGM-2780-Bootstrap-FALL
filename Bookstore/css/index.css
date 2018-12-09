@@ -139,6 +139,19 @@ main .carousel {
   padding: 1.5rem;
   color: #fff;
 }
+button.addButton {
+  width: 120px;
+  height: 50px;
+  border: 1px solid #aca lal;
+  background-color: #e3d9d9;
+  position: fixed;
+  top: 7%;
+  right: 5%;
+  z-index: 8;
+}
+.overlay {
+  z-index: 9;
+}
 .mainContent {
   display: flex;
   justify-content: flex-end;
@@ -210,8 +223,62 @@ nav.pageNav {
 .contactForm {
   width: 100%;
   margin-top: 5rem;
-  padding: 2rem 2rem 0 2rem;
+  padding: 2rem 2rem 0 9rem;
+}
+@media (max-width: 991.98px) {
+  .contactForm {
+    padding: 2rem 2rem 0 4rem;
+  }
 }
 .contactForm .form-group {
   padding: 2rem 0.75rem 2rem 0;
+}
+.btn {
+  background-color: #565050;
+}
+body,
+.overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button,
+.button {
+  outline: none;
+}
+.overlay {
+  display: none;
+  background-color: #d3d3d3;
+  z-index: 10;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.newAdd {
+  width: 60%;
+}
+@media (max-width: 576px) {
+  .newAdd {
+    width: 100%;
+  }
+}
+@media (max-width: 991.98px) {
+  .newAdd {
+    width: 100%;
+  }
+}
+.newAdd img {
+  width: 100%;
+}
+.exitButton {
+  width: 50px;
+  height: 50px;
+  font-size: 30px;
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  border: 1px solid #aca lal;
+  background-color: #e3d9d9;
 }
