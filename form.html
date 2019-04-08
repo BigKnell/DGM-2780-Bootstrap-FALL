@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Bootstrap 4</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet">
+    <link href="css/index.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12 col-md-3">
+                    <h1>Road Warriors</h1>
+                </div>
+                <nav class="navbar col-sm-12 col-md-9 bg-dark">
+                    <ul class="nav nav-pills">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="bikes.html">Bike News</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="form.html">Contact Us</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Javascript component dismissable alert -->
+<div class = "alert alert-success alert dismissable" id = "formAlert">
+    <a href = "#" class = "closer"><b id = strongerColor>&times;</b></a>
+    <b>Want deals?</b> Copy the code for 20% off your next purchase! <b>BIKE4EVA</b>
+</div>
+    <form>
+        <div class="form-group">
+            <label for="emailIn">Email Address</label>
+            <input type="email" class="form-control" id="theEmail">
+            <label for="nameIn">Your Name</label>
+            <input type="text" class="form-control" id="theName">
+        </div>
+        <div class="form-group">
+            <label for="comments">Questions and comments.</label>
+            <input type="text" class = "form-control" id = "theStuff">
+
+        </div>
+        <button type = "submit" class = "btn btn-primary">Submit</button>
+    </form>
+
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+
+</body>
+
+</html>
