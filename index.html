@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+		<!-- https://www.guthriebike.com/ -->
 <head>
 	<title>Bootstrap 4</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -7,14 +8,168 @@
 	<link href="css/bootstrap.min.css" type="text/css" rel="stylesheet">
 	<link href="css/index.css" type="text/css" rel="stylesheet">
 </head>
-<body>
-	
-<!-- Your code here! -->
-	
 
-<script type="text/javascript" src="js/jquery.js"></script>
-<script type="text/javascript" src="js/bootstrap.min.js"></script>
-<script type="text/javascript" src="js/index.js"></script>
+<body>
+
+	<header>
+		<div class="container-fluid">
+			<div class="row">
+				<div class = "col-sm-12">
+				<h1 class = "logo">Road Warriors</h1>
+				</div>
+			</div>
+			<div class = "row">
+				<nav class="navbar col-sm-12">
+					<ul class="nav nav-pills">
+						<li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+						<li class="nav-item"><a class="nav-link" href="bikes.html">Bike News</a></li>
+						<li class="nav-item"><a class="nav-link" href="form.html">Contact Us</a></li>
+					</ul>
+				</nav>
+				</div>
+			</div>
+		</div>
+
+	</header>
+
+	<!-- javascript component carsousel-->
+	<div id="javaCarousel" class="carousel slide">
+		<ul class="carousel-indicators">
+			<li class="pic1 active"></li>
+			<li class="pic2"></li>
+			<li class="pic3"></li>
+			<li class="pic4"></li>
+		</ul>
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+				<img src="pics/leap.jpg" alt="Awesome Jump">
+			</div>
+			<div class="carousel-item">
+				<img src="pics/forest.jpg" alt="Forest Path">
+			</div>
+			<div class="carousel-item">
+				<img src="pics/dirtBike.jpg" alt="Mountain Ride">
+			</div>
+			<div class="carousel-item">
+				<img src="pics/blackBike.jpg" alt="City Bike">
+			</div>
+		</div>
+
+		<a class="carousel-control-prev" href="#javaCarousel">
+			<span class="carousel-control-prev-icon"></span>
+		</a>
+		<a class="carousel-control-next" href="#javaCarousel">
+			<span class="carousel-control-next-icon"></span>
+		</a>
+	</div>
+
+	<div class="container-fluid">
+
+		<div id="announce">
+			<h3>Nullam mollis</h3>
+			<p>Fusce a malesuada orci. Vivamus sit amet tellus nunc. Pellentesque.</p>
+			<button type = "button" class = "btn btn-primary">Etiam</button>
+		</div>
+
+		<!-- CSS Component cards -->
+		<div id="picInfo">
+			<div class="row">
+				<div class = "card text-white bg-dark col-sm-12 col-md-6 col-lg-4">
+					<img src="pics/motor.jpg" class = "card-img-top">
+					<h1 class = "card-title">Curabitur</h1>
+					<p class = "card-text">Etiam ut ex eu erat lacinia convallis.</p>
+					<button type = "btn" class = "btn btn-light">Etiam</button>
+				</div>
+				<div class="card text-white bg-dark col-sm-12 col-md-6 col-lg-4">
+					<img src="pics/spokes.jpg" class = "card-img-top">
+					<h1 class = "card-title">In hac</h1>
+					<p class = "card-text">Pellentesque bibendum ut orci quis tincidunt. Curabitur vel nulla vitae mauris.</p>
+					<button type = "btn" class = "btn btn-light">Etiam</button>
+				</div>
+				<div class="card text-white bg-dark col-sm-12 col-md-6 col-lg-4">
+					<img src="pics/tools.jpg" class = "card-img-top">
+					<h1 class = "card-title">Aliquam</h1>
+					<p class = "card-text"> Nunc pellentesque eros vel lacus eleifend, in.</p>
+					<button type = "btn" class = "btn btn-light">Etiam</button>
+				</div>
+				<div class="card text-white bg-dark col-sm-12 col-md-6 col-lg-4">
+					<img src="pics/longRoad.jpg" class = "card-img-top">
+					<h1 class = "card-title">Quisque</h1>
+					<p class = "card-text"> Etiam ultricies sed orci sit amet ultricies. Aliquam.</p>					
+					<button type = "btn" class = "btn btn-light">Etiam</button>
+				</div>
+				<div class="card text-white bg-dark col-sm-12 col-md-6 col-lg-4">
+					<img src="pics/paintedRoad.jpg" class = "card-img-top">
+					<h1 class = "card-title">Fusce</h1>
+					<p class = "card-text"> Suspendisse eget hendrerit sapien. Phasellus feugiat tellus a magna lobortis, eget.</p>
+					<button type = "btn" class = "btn btn-light">Etiam</button>
+				</div>
+				<div class="card text-white bg-dark col-sm-12 col-md-6 col-lg-4">
+					<img src="pics/sunset.jpg" class = "card-img-top">
+					<h1 class = "card-title">Nulla augue</h1>
+					<p class = "card-text"> Morbi sed dui fermentum, tincidunt nibh. </p>
+					<button type = "btn" class = "btn btn-light">Etiam</button>
+				</div>
+			</div>
+		</div>
+
+		<div id="sale">
+			<h3>Nullam sit amet rutrum lacus</h3>
+			<button type="button" class="btn btn-primary">Etiam</button>
+		</div>
+
+
+		<div class="row" id="locations">
+			<div class="col-xs-12 col-sm-4">
+				<h4>Locations</h4>
+				<ul>
+					<li>948 W 666 N</li>
+					<li>Alexandria, WV</li>
+					<li>55452</li>
+				</ul>
+				<ul>
+					<li>424 E 252 N</li>
+					<li>Tuscon, AZ</li>
+					<li>87726</li>
+				</ul>
+				<ul>
+					<li>8784 W Main St.</li>
+					<li>Northburry, MA</li>
+					<li>32541</li>
+				</ul>
+			</div>
+			<div class="col-xs-12 col-sm-4">
+				<h4>Hours</h4>
+				<ul>
+					<li><b>Mon - Thu</b></li>
+					<li>9am - 5pm</li>
+					<li><b>Friday</b></li>
+					<li>8am - 9pm</li>
+					<li><b>Saturday</b></li>
+					<li>8am - 5pm</li>
+					<li><b>Sunday</b></li>
+					<li>Closed</li>
+				</ul>
+			</div>
+			<div class="col-xs-12 col-sm-4">
+				<h4>Shopping</h4>
+				<ul>
+					<li>Kids Bikes</li>
+					<li>Mountain Bikes</li>
+					<li>Specialty Bikes</li>
+					<li>Parts</li>
+					<li>Accessories</li>
+					<li>Classes</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
 
 </body>
+
 </html>
