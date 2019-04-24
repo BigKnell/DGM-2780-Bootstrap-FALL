@@ -21,6 +21,10 @@ nav ul li ul.sub-nav {
 }
 nav {
   margin-bottom: 12pt;
+  background-color: #373737;
+}
+.logo {
+  color: red;
 }
 .carousel-inner img {
   width: 100%;
