@@ -1,21 +1,253 @@
-.clear {
-  clear: both; }
-
-nav {
-  float: left;
-  color: #FF0000;
-  font-family: Helvetica, sans-serif; }
-  nav ul li ul.sub-nav {
-    display: none; }
-
-.box {
-  width: 200px;
-  height: 200px;
-  background: red; }
-
-.box2 {
-  width: 200px;
-  height: 200px;
-  background: gray; }
-
 /*# sourceMappingURL=main.css.map */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  background-color: white;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+h1 {
+  font-size: 2.4rem;
+}
+h3 {
+  font-size: 1.75em;
+  padding: 0.2em 0;
+}
+h4 {
+  font-size: 1.5em;
+  padding: 0.2em 0;
+}
+.container-fluid-header {
+  background: black;
+  color: white;
+}
+.container-fluid-header .navbar-nav {
+  padding-top: 5em;
+  margin: 0 auto;
+}
+.container-fluid-header .navbar-nav .nav-link {
+  font-size: 16px;
+  padding: 0 20px;
+}
+.container-fluid-header .navbar-brand {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.content {
+  background: grey;
+  height: 800px;
+}
+.container-fluid-Bar {
+  background: #604D57;
+  color: white;
+  height: 3.6rem;
+}
+.carousel-inner {
+  padding: 20px;
+}
+.row {
+  padding: 4%;
+}
+.logo {
+  height: 10%;
+  padding: 10px;
+}
+.logo img {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container-footer-logo {
+  background: black;
+  height: 20rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container-footer-logo .foot-logo {
+  height: 60%;
+  margin: 3em 0 0 0;
+}
+.container-fluid-stores {
+  font-size: 16px;
+  background: black;
+  color: white;
+  padding: 0 20px;
+}
+.container-fluid-stores .store {
+  padding-bottom: 2.5em;
+}
+.container-social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container-social .fa {
+  padding: 1em;
+  font-size: 3em;
+  width: 3em;
+  text-align: center;
+  text-decoration: none;
+  margin: 0.5em 0.5em;
+  border-radius: 50%;
+  background: #604D57;
+  color: white;
+}
+.container-social .fa:hover {
+  opacity: 0.7;
+}
+#logo {
+  position: relative;
+}
+h1 {
+  color: #604D57;
+}
+#logo {
+  position: relative;
+}
+h1 {
+  color: #604D57;
+}
+#logo {
+  position: relative;
+}
+#demo {
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.green {
+  background-color: #6fb936;
+}
